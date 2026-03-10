@@ -1,4 +1,3 @@
-remote_theme: jekyll-theme-chirpy
+remote_theme: just-the-docs/just-the-docs
 title: My homepage
 description: We are a work in progress!
-theme_mode: dark

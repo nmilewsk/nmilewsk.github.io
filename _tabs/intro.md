@@ -1,8 +1,9 @@
 ---
-title: "Introduction to Topology: An Intuitive Approach"
-order: 1
+title: Introduction
+parent: Introduction to Topology
+nav_order: 1
 ---
 
-# Introduction
+# Introduction to Topology
 
-Find out how to do subtabs...
+Fill in later
