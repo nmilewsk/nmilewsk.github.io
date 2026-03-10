@@ -1,11 +1,11 @@
 ---
-title: Introduction to Topology
+title: Topology
 nav_order: 2
 has_children: true
 ---
 
-# Topology
+# Introduction to Topology
 
-Fill in later...
+
 
 

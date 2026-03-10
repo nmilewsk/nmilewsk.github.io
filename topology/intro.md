@@ -1,6 +1,6 @@
 ---
-title: Introduction
-parent: Introduction to Topology
+title: Introduction/Preface
+parent: Topology
 nav_order: 1
 ---
 
