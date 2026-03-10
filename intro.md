@@ -1,5 +1,5 @@
 ---
-title: Introduction to Topology: An Intuitive Approach
+title: "Introduction to Topology: An Intuitive Approach"
 order: 2
 ---
 
