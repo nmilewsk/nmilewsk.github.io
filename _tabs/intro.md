@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Topology: An Intuitive Approach"
-order: 2
+order: 1
 ---
 
 # Introduction
