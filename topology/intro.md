@@ -3,3 +3,7 @@ title: Preface
 parent: Topology
 nav_order: 1
 ---
+
+# Preface
+
+One sentiment that I have carried, and forever will continue to carry, is that anyone can do math. All it takes is proper intuition and the ability to turn said intuition into rigor. That is my intention, to possibly spark intuition into those who might otherwise be scared off by the abstractions of topology. At the time of writing, I am a few months removed from my first ever topology course. Not long after I had finished the course, I looked back and realized just how beautiful the subject truly was. This is intended to cover general/point set topology at an undergraduate level. While there are no strict prerequisites, topology invokes a number of mathematical branches including, but not limited to, set theory, abstract algebra, geometry, and quite a bit of real analysis. Because of this, an understanding with mathematical logic is recommended. If you feel that this excludes you in some way, please do not worry! Mathematics is hard for most, and it will knock you down on occassion. But please, pick yourself back up because I know you are more than capable. Remember, anyone can do math.
