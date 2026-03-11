@@ -1,5 +1,6 @@
 ---
 title: Notation
+layout: default
 parent: Preface
 nav_order: 1
 ---
