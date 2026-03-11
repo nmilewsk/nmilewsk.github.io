@@ -1,5 +1,6 @@
 ---
+title: Home
 layout: home
-nav_order: 1
+has_toc: false
 ---
 <img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="600">
