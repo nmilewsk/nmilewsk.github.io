@@ -3,4 +3,4 @@ title: Home
 layout: home
 has_toc: false
 ---
-![shapes]({{ site.baseurl }}/assets/images/torusklein.png)
+<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
