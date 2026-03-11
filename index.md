@@ -2,4 +2,4 @@
 layout: home
 nav_order: 1
 ---
-![My image]({{ site.baseurl }}/assets/images/torusklein.png)
+<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="600">
