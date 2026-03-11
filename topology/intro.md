@@ -1,5 +1,6 @@
 ---
 title: Preface
+layout: default
 parent: Topology
 nav_order: 1
 has_children: true
