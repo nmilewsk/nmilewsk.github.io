@@ -11,7 +11,7 @@ Please note that most of the following can be defined in much greater detail in 
 
 ## Language
 
-A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill. You can think of these properties as some restriction on the elements, almost like you're using a filter to only gather the desired elements.
+A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill.
 
 The <u><strong>empty set</strong></u> is the set containing no elements. The empty set is given by this notation: $\emptyset$.
 
@@ -22,18 +22,20 @@ When stating some property that characterizes elements of some set $A$, it might
 - Note that set builder notation can imply a for all quantifier without use of the symbol. For example, the following statements are referring to the same collection of elements:
 
 $$
-\\{x \in A \ | \ x \neq y\\}.
+\{x \in A \ | \ x \neq y\}.
 $$
+
 $$
 \forall x \in A \text{ such that } x \neq y.
 $$
+
 $$
 \text{ every x in A that is not y}.
 $$
 
-A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U \\implies x \\in V.$ We denote this by $U \\subseteq V.$
+A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U$, $x \\in V.$ We denote this by $U \\subseteq V.$
 
-Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U \\implies x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally.
+Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U$, $x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally.
 
 ## Logic
 
