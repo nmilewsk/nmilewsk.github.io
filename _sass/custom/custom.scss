@@ -1,7 +1,7 @@
 .side-bar {
-  padding-left: 0;
+  width: 18rem;  // default is 16.5rem
 }
 
-.site-header {
-  padding-left: 1rem;
+.main {
+  margin-left: 18rem;  // should match the sidebar width
 }
