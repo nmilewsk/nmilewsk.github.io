@@ -8,11 +8,16 @@
   margin-left: 16.5rem;
 }
 
-.main-content {
+.main-content-wrap {
+  padding-left: 2rem;
   max-width: 100%;
   margin-left: 0;
-  margin-right: 0;
-  padding-left: 2rem;
+}
+
+.main-content {
+  padding-left: 0;
+  margin-left: 0;
+  max-width: 100%;
 }
 
 .site-header {
