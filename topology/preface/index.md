@@ -11,19 +11,41 @@ Please note that most of the following can be defined in much greater detail in 
 
 ## Language
 
-A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill.
+A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill. You can think of these properties as some restriction on the elements, almost like you're using a filter to only gather the desired elements.
 
 The <u><strong>empty set</strong></u> is the set containing no elements. The empty set is given by this notation: $\emptyset$.
-- We can say $A = \\{1,\\, 2,\\, 3\\}$ is a set because we have listed its elements.
-- Likewise we can say $A = \\{\text{all positive integers less than }4\\}$ is a set by stating a property.
-- <span>$B = \\{x\\ |\\ x > x\\} = \emptyset$.</span>
 
 If $x$ is an element of the set $A$, we write $x \\in A$. Conversely, if $y$ is not an element of the set $A$, we write $y \\notin A$.
 
-When stating a property that characterizes elements of a set, it might come in handy to use logical quantifiers. We use the symbol $\\forallx$ to denote every x. We use $\\exists$ to denote that such an x exists. These can also be negated with $\\not\\forall$ and $\\not\\exists$.
-- Note that set builder notation, like in the examples above, implies a for all quantifier. For example, the following statements are referring to the same collection of elements:
+When stating some property that characterizes elements of some set $A$, it might come in handy to use logical quantifiers and operators. Logical quantifiers and operators help us communicate both the existence and quantity of x that fulfill the property. First we use the symbol $\\forall x$ to assert that the property holds for every $x$. Next we use the symbol $\\exists x$ to assert that the property holds for at least one $x$. Lastly, and we won't use this symbol much at all, but we can negate either of these assertions with $\\neg$. We will generally denote $\\neg \\exists$ by $\\not \\exists$, but $\\neg \\forall$ is a little trickier. We generally will not use a notation for this negation, but it is equivalent to saying that there exists some $x$ where the property does not hold.
+
+- Note that set builder notation can imply a for all quantifier without use of the symbol. For example, the following statements are referring to the same collection of elements:
+
 $$
-\\{x\\in A \\ | \\ x \\neq y\\} = \\forall x \\in A \\text{ such that } x \\neq y =  \\text{ every x in A that is not y.}
+\\{x \in A \ | \ x \neq y\\}.
+$$
+$$
+\forall x \in A \text{ such that } x \neq y.
+$$
+$$
+\text{ every x in A that is not y}.
 $$
 
+A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U \\implies x \\in V.$ We denote this by $U \\subseteq V.$
+
+Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U \\implies x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally.
+
 ## Logic
+
+## Exercises
+
+### ADD EXERCISES BASED ON QUESTIONS BELOW LATER
+
+- We can say $A = \\{1,\\, 2,\\, 3\\}$ is a set because we have listed its elements.
+- Likewise we can say $A = \\{\text{all positive integers less than }4\\}$ is a set by stating a property.
+- <span>$B = \\{x\\ |\\ x > x\\} = \emptyset$.</span>
+- If we have $A = \\{1,\\, 2,\\, 3\\}$, then $1 \\in A$ and $4 \\notin A.$
+- Let $A=\\{0,\\, 1,\\, 2, \\, ...\\}.$
+  - If we let $P(x)$ hold when $x$ is odd, then we get the following:
+    - $\\forall x P(x)$ is NOT true, so its negation is true: $\\exists x \\neg P(x).$
+    - $\\exists x P(x)$ is true, so its negation is NOT true: $\\not \\exists x P(x).$
