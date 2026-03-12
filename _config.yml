@@ -4,3 +4,10 @@ description: We are a work in progress!
 color_scheme: dark
 kramdown:
   math_engine: mathjax
+callouts:
+  pop:
+    color: blue
+callouts:
+  theorem:
+    title: Theorem
+    color: blue
