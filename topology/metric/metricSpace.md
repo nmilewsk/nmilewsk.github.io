@@ -93,7 +93,9 @@ We now move to show a couple of metrics and proving that they, with an associate
 
 NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
 
+EXERCISES:
 
+determine if they are a metric
 
 NORMED SPACES!!!
-Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\cdot,\\cdot>$ induces a norm $\\lvert \\lvert \\cdot \\lvert \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\cdot \\rvert)$, show that $\\lvert \\lvert x-y \\rvert \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
+Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\cdot,\\cdot>$ induces a norm $\\lvert \\lvert \\cdot \\lvert \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\lvert \\cdot \\rvert \\rvert)$, show that $\\lvert \\lvert x-y \\rvert \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
