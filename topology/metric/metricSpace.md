@@ -19,6 +19,8 @@ Metrics, and their associated metric spaces, have been around you your whole lif
 > d: X \times X \mapsto \mathbb{R}
 > $$
 > such that that $d$ satisfies the following conditions $\\forall x,y,z \\in X.$
-> 1. (Non-negativity) $d(x,y) \\geq 0$, and $d(x,y) = 0 \\iff x = y.$
+> <span id="M1">1.</span> (Non-negativity) $d(x,y) \\geq 0$, and $d(x,y) = 0 \\iff x = y.$
 > 2. (Symmetry) $d(x,y) = d(y,x).$
 > 3. (Triangle Inequality) $d(x,z) \\leq d(x,y) + d(y,z).$
+
+As [above](#M1), it is clear that...
