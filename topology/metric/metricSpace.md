@@ -15,9 +15,11 @@ Metrics, and their associated metric spaces, have been around you your whole lif
 
 {: .definition }
 > A <u><strong> metric </strong></u> on a set $X$ is a function
+>
 > $$
 > d: X \times X \mapsto \mathbb{R}
 > $$
+>
 > such that that $d$ satisfies the following conditions $\\forall x,y,z \\in X.$
 >
 > <span id="M1">1.</span> (Non-negativity) $d(x,y) \\geq 0$, and $d(x,y) = 0 \\iff x = y.$
