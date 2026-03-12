@@ -93,4 +93,4 @@ NEXT IS DISCRETE METRIC
 
 
 NORMED SPACES!!!
-Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\cdot,\\cdot>$ induces a norm $\\lvert \\cdot \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\cdot \\rvert)$, show that $\\lvert x-y \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
+Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\cdotp,\\cdotp>$ induces a norm $\\lvert \\cdotp \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\cdotp \\rvert)$, show that $\\lvert x-y \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
