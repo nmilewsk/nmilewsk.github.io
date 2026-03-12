@@ -7,7 +7,6 @@ kramdown:
 callouts:
   pop:
     color: blue
-callouts:
   theorem:
     title: Theorem
-    color: blue
+    color: green
