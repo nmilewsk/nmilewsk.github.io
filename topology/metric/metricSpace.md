@@ -50,9 +50,11 @@ We now move to show a couple of metrics and proving that they, with an associate
 
 {: .proof }
 > [Non-negativity](#M1):
+> 
 > Note that the square root function is already non-negative, so we simply need to check the case where $x=y$. $d(x,x)=\\sqrt{(x_{1}-x_{1})^2 + (x_{2}-x_{2})^2} = \\sqrt{0 + 0} = 0.$
 >
 > [Symmetric](#M2):
+> 
 > $d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$ 
 > $= \\sqrt{(-1(y_{1}-x_{1}))^2 + (-1(y_{2}-x_{2}))^2}$ 
 > $= \\sqrt{(-1)^2(y_{1}-x_{1})^2 + (-1)^2(y_{2}-x_{2})^2}$
@@ -61,6 +63,7 @@ We now move to show a couple of metrics and proving that they, with an associate
 > [Triangle Inequality](#M3):
 > 
 > WTS: $\\sqrt{(x_{1}-z_{1})^2 + (x_{2}-z_{2})^2} \\leq \\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2} + \\sqrt{(y_{1}-z_{1})^2 + (y_{2}-z_{2})^2}.$
+> 
 > First, let $a_{i} = (x_{i}-y_{i})$ and $b_{i} = (y_{i}-z_{i}),$ then $(x_{i}-z_{i}) = (a_{i}+b_{i}).$
 > 
 > It now suffices to show that $\\sqrt{(a_{1}+b_{1})^2 + (a_{2}+b_{2})^2} \\leq \\sqrt{a_{1}^2 + a_{2}^2} + \\sqrt{b_{1}^2 + b_{2}^2}.$
@@ -85,6 +88,9 @@ We now move to show a couple of metrics and proving that they, with an associate
 > 
 > Thus, $d$ is a metric, and by definition $(\\mathbb{R}^2, d)$ is a metric space. $\\square$
 
+NEXT IS DISCRETE METRIC
+
 
 
 NORMED SPACES!!!
+Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\dot,\\dot>$ induces a norm $\\lvert \\dot \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\dot \\rvert)$, show that $\\lvert x-y \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
