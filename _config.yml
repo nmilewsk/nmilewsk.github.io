@@ -4,18 +4,10 @@ description: We are a work in progress!
 color_scheme: dark
 kramdown:
   math_engine: mathjax
+nav_enabled: false
 callouts:
   pop:
     color: blue
   theorem:
     title: Theorem
     color: green
-  definition:
-    title: Definition
-    color: blue
-  lemma:
-    title: Lemma
-    color: blue
-  corollary:
-    title: Corollary
-    color: blue
