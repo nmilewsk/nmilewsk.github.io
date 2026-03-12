@@ -56,8 +56,11 @@ We now move to show a couple of metrics and proving that they, with an associate
 > [Symmetric](#M2):
 > 
 > $d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$ 
+> 
 > $= \\sqrt{(-1(y_{1}-x_{1}))^2 + (-1(y_{2}-x_{2}))^2}$ 
+> 
 > $= \\sqrt{(-1)^2(y_{1}-x_{1})^2 + (-1)^2(y_{2}-x_{2})^2}$
+> 
 > $= \\sqrt{(y_{1}-x_{1})^2 + (y_{2}-x_{2})^2} = d(y,x)$
 > 
 > [Triangle Inequality](#M3):
@@ -93,4 +96,4 @@ NEXT IS DISCRETE METRIC
 
 
 NORMED SPACES!!!
-Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\cdotp,\\cdotp>$ induces a norm $\\lvert \\cdotp \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\cdotp \\rvert)$, show that $\\lvert x-y \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
+Future Exercise: Show that, in an inner product space $V$, that the inner product $<\\cdot,\\cdot>$ induces a norm $\\lvert \\cdot \\rvert$, and from that every norm induces a metric (i.e. given $(V,\\lvert \\cdot \\rvert)$, show that $\\lvert x-y \\rvert$ is a metric on $V$). Conclude that every inner product space is a metric space.
