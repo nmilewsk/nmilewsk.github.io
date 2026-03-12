@@ -10,4 +10,7 @@ callouts:
     color: blue
   theorem:
     title: Theorem
+    color: yellow
+  definition:
+    title: Definition
     color: green
