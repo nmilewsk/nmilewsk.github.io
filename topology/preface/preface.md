@@ -14,6 +14,7 @@ Please note that most of the following can be defined in much greater detail in 
 
 {: .pop }
 > A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill.
+> 
 > The <u><strong>empty set</strong></u> is the set containing no elements. The empty set is given by this notation: $\emptyset$.
 
 {: .pop }
@@ -37,7 +38,7 @@ $$
 
 {: .pop }
 > A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U$, $x \\in V.$ We denote this by $U \\subseteq V.$
->
+> 
 > Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U$, $x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally.
 
 ## Logic
