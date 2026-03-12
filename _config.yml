@@ -10,3 +10,12 @@ callouts:
   theorem:
     title: Theorem
     color: green
+  definition:
+    title: Definition
+    color: blue
+  lemma:
+    title: Lemma
+    color: blue
+  corollary:
+    title: Corollary
+    color: blue
