@@ -4,7 +4,7 @@ description: We are a work in progress!
 color_scheme: dark
 kramdown:
   math_engine: mathjax
-nav_enabled: false
+heading_anchors: false
 callouts:
   pop:
     color: blue
