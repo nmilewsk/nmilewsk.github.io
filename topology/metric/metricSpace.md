@@ -179,9 +179,18 @@ There is one more metric that we will introduce, as related results can pop up q
 >
 > $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}$:
 >
+> Note that each $d_{X_{i}}$ is a metric by assumption, so each term in the root is non-negative, thus the sum of the squares is non-negative and $d(x,y) \\geq 0$
 >
+> If $x=y$, then each $x_{i} = y_{i} \\implies d_{X_{i}}(x_{i},y_{i}) = 0 \\implies d(x,y) = 0$.
+>
+> If $d(x,y) = 0$, then $d_{X_{1}}(x_{1},y_{1})^2 + ... + d_{X_{n}}(x_{n},y_{n})^2 = 0$
+>
+> Since each $d_{X_{i}}$ is non-negative, this forces $d_{X_{i}} = 0$ for every $i$.
+>
+> $\\implies \\forall{i}, x_{i} = y_{i} \\implies x = y$.
+>
+> [Symmetric](#M2):
 
-NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC 
 
 EXERCISES:
 
