@@ -51,7 +51,7 @@ When you think about measuring distance between two objects intuitively, these s
 {: .proof }
 > [Non-negativity](#M1):
 > 
-> $ \\forall{x,y} \\in \\mathbb{R}^2$
+> $ \\forall{x,y} \\in \\mathbb{R}^2$:
 >
 > Note that the square root function is already non-negative, so we simply need to check $x=y \\iff d(x,y) = 0$.
 > 
@@ -62,7 +62,7 @@ When you think about measuring distance between two objects intuitively, these s
 >
 > [Symmetric](#M2):
 > 
-> $ \\forall{x,y} \\in \\mathbb{R}^2$,
+> $ \\forall{x,y} \\in \\mathbb{R}^2$:
 >
 > $d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$ 
 > 
@@ -74,7 +74,7 @@ When you think about measuring distance between two objects intuitively, these s
 > 
 > [Triangle Inequality](#M3):
 > 
-> Let $(x_{1}, x_{2}), (y_{1}, y_{2}), (z_{1}, z_{2}) \\in \\mathbb{R}^2$ be arbitrary.
+> $\\forall{(x_{1}, x_{2}), (y_{1}, y_{2}), (z_{1}, z_{2})} \\in \\mathbb{R}^2$:
 >
 > WTS: $\\sqrt{(x_{1}-z_{1})^2 + (x_{2}-z_{2})^2} \\leq \\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2} + \\sqrt{(y_{1}-z_{1})^2 + (y_{2}-z_{2})^2}.$
 > 
@@ -104,10 +104,8 @@ When you think about measuring distance between two objects intuitively, these s
 
 The Euclidean Metric is fairly straightforward and indeed should make a lot of sense as to why it is considered a metric. However, metrics don't always "measure distance" in a canonical sense. Take for example the discrete metric:
 
-{: .pop-title}
-> Example:
->
-> Let
+{: .theorem }
+> If we let
 >
 > $$
 > d: \mathbb{R} \times \mathbb{R} \mapsto \mathbb{R} 
@@ -118,12 +116,13 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > $$
 > d(x,y) = \begin{cases}
 > 1 & \text{if } x \neq y \\
-> 0 & \text{if } x = y.
+> 0 & \text{if } x = y,
 > \end{cases}
 > $$
 >
-> We want to show that $d(x,y)$ is a metric.
->
+> then $d(x,y)$ is a metric and $(\\mathbb{R},d) is a metric space$.
+
+{: .proof }
 > [Non-negativity](#M1):
 >
 > By construction,  $\\forall{x,y} \\in \\mathbb{R}, d(x,y) \\geq 0$ and $d(x,y) = 0 \\iff x=y$
@@ -135,6 +134,23 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > If $x=y$, then $d(x,y) = 0$ and $d(y,x) = 0 \\implies d(x,y) = d(y,x)$
 > 
 > If $x \\neq y$, then $d(x,y) = 1$ and $d(y,x) = 1 \\implies d(x,y) = d(y,x)$
+>
+> [Triangle Inequality](#M3):
+> 
+> $\\forall{x,y,z} \\in \\mathbb{R}$:
+> 
+> WTS: $d(x,y) \\leq d(x,z) + d(z,y)$
+>
+> If $x = y$, then $0 \\leq d(x,z) + d(z,y)$, which holds regardless of the value of $z$.
+>
+> If $x \\neq y$, then $ 1 \\leq d(x,z) + d(z,y)$. Note that his fails if $d(x,z) = 0 = d(z,y)$
+>
+> $\\implies x = z$ and $z = y // implies x = y$, which contradicts that $x \\neq y$.
+>
+>
+>$\\implies \\forall{x,y,z} \\in \\mathbb{R}, d(x,y) \\leq d(x,z) + d(z,y)$, as required $\\square$
+
+There is one more metric that we will introduce, as it can pop up quite frequently. We move to show the product metric:
 
 NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
 
