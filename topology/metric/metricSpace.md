@@ -177,7 +177,7 @@ There is one more metric that we will introduce, as related results can pop up q
 {: .proof }
 > [Non-negativity](#M1):
 >
-> $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}:
+> $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}$:
 >
 >
 
