@@ -16,7 +16,7 @@ I have vast experience working both in education and in the world of mathematics
   <label>
     Your email:
     <input type="email" name="email">
-  </label>
+  </label><br>
   <label>
     Your message:
     <textarea name="message"></textarea>
