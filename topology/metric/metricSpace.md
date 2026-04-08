@@ -75,7 +75,7 @@ When you think about measuring distance between two objects intuitively, these s
 > 
 > $\\implies a_{1}^2 + a_{2}^2 + b_{1}^2 + b_{2}^2 + 2(a_{1}b_{1} + a_{2}b_{2}) \\leq a_{1}^2 + a_{2}^2 + b_{1}^2 + b_{2}^2 + 2\\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)}.$
 > 
-> After cancelling, we just need to show $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)}.$  <span id="metric1">(1)</span>
+> After cancelling, we just need to show $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)}.$  <span id="metric1"><strong>(1)</strong></span>
 > 
 > Because square root is a non-negative function, we can say $(a_{1}b_{2}-a_{2}b_{1})^2 \\geq 0$
 > 
