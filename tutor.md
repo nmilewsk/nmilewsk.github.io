@@ -17,7 +17,7 @@ I have vast experience working both in education and in the world of mathematics
   target="_top"
 >
   <div class="fs-field">
-    <label class="fs-label" for="name">Your Name:</label>
+    <label class="fs-label" for="name">Name:</label>
     <input class="fs-input" id="name" name="name" required />
   </div>
   <div class="fs-field">

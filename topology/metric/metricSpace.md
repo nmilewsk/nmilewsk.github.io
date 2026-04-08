@@ -7,7 +7,7 @@ nav_order: 1
 
 # What is a Metric Space?
 
-Metrics, and their associated metric spaces, have been around you your whole life. Have you ever used $\\vert x-y \\vert$ to measure the distance between two points? How about using the distance formula $d=\\sqrt{(x_{2}-x_{1})^2 + (y_{2}-y_{1})^2}$ to find the distance between two points on the Cartesian plane? Well if so, then you have utilized metric spaces!
+Metric spaces, and their associated metrics, have been around you your whole life whether you were aware of it or not. A metric space, very simply, is a set where you can quantify the distance between any two elements using an associated distance function, better known as a metric. Have you ever used $\\vert x-y \\vert$ to measure the difference between two numbers? How about using the distance formula $d=\\sqrt{(x_{2}-x_{1})^2 + (y_{2}-y_{1})^2}$ to find the distance between two points on the Cartesian plane? Well if so, then you have utilized metrics!
 
 {: .definition }
 > A <u><strong> metric space </strong></u> is an ordered pair $(X,d)$ where $X$ is a set and $d(x,y)$ is a metric on X.
@@ -28,7 +28,7 @@ Metrics, and their associated metric spaces, have been around you your whole lif
 > 
 > <span id="M3">3.</span> (Triangle Inequality) $d(x,z) \\leq d(x,y) + d(y,z).$
 
-We now move to show a couple of metrics and proving that they, with an associated set, form a metric space.
+When you think about measuring distance between two objects intuitively, these seem very straightforward. Distance does not care about direction, so it is always positive. The distance from a to b is the same as from b to a, and the shortest path between two points is a straight line. We now move to show a couple of metrics and proving that they, with an associated set, form a metric space.
 
 {: .theorem }
 > If we have $d$ be defined as follows:
@@ -90,6 +90,12 @@ We now move to show a couple of metrics and proving that they, with an associate
 >  $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)} \\implies d(x,z) \\leq d(x,y) + d(y,z)$ by [(1)](#metric1).
 > 
 > Thus, $d$ is a metric, and by definition $(\\mathbb{R}^2, d)$ is a metric space. $\\square$
+
+The Euclidean Metric is fairly straightforward and indeed should make a lot of sense as to why it is considered a metric. However, metrics don't always "measure distance" in a canonical sense. Take for example the discrete metric:
+
+{: .pop-title}
+> Example:
+> We want to show that
 
 NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
 
