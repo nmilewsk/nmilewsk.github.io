@@ -97,11 +97,13 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > Example:
 >
 > Let
-> $$
-> d: \mathbb{R} \times \mathbb{R} \mapsto \mathbb{R} 
 >
 > $$
+> d: \mathbb{R} \times \mathbb{R} \mapsto \mathbb{R} 
+> $$
+>
 > where $\forall{x,y} \in \mathbb{R}$, $d(x,y)$ is defined as:
+>
 > $$
 > d(x,y) = \begin{cases}
 > 1 & \text{if } x \neq y \\
