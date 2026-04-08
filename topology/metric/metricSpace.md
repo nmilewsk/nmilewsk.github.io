@@ -95,7 +95,18 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 
 {: .pop-title}
 > Example:
+>
 > We want to show that
+> $$
+> d: \mathbb{R} \times \mathbb{R} \mapsto \mathbb{R} 
+> $$
+> where $\forall{x,y} \in \mathbb{R}$, $d(x,y)$ is defined as:
+> $$
+> d(x,y) = \begin{cases}
+> 1 & \text{if } x \neq y \\
+> 0 & \text{if } x = y
+> \end{cases}
+> $$
 
 NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
 
