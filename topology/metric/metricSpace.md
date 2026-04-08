@@ -37,7 +37,7 @@ When you think about measuring distance between two objects intuitively, these s
 > d: \mathbb{R}^2 \times \mathbb{R}^2 \mapsto \mathbb{R} 
 > $$
 > 
-> where $\\forall{x=(x_{1}, x_{2}), \\, y=(y_{1}, y_{2})} \\in \\mathbb{R}^2$, $d(x,y)$ is defined as:
+> where $\\forall{x,y} \\in \\mathbb{R}^2$, $d(x,y)$ is defined as:
 >
 > $$
 > d(x,y)=\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2},
