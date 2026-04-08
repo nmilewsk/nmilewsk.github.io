@@ -17,18 +17,18 @@ I have vast experience working both in education and in the world of mathematics
   target="_top"
 >
   <div class="fs-field">
-    <label class="fs-label" for="name">Your Name</label>
+    <label class="fs-label" for="name">Your Name:</label>
     <input class="fs-input" id="name" name="name" required />
   </div>
   <div class="fs-field">
-    <label class="fs-label" for="email">Email</label>
+    <label class="fs-label" for="email">Email:</label>
     <input class="fs-input" id="email" name="email" required />
     <p class="fs-description">
       This will help me respond to your query via an email.
     </p>
   </div>
   <div class="fs-field">
-    <label class="fs-label" for="message">Message</label>
+    <label class="fs-label" for="message">Message:</label>
     <textarea
       class="fs-textarea"
       id="message"
