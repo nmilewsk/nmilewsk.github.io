@@ -166,9 +166,22 @@ There is one more metric that we will introduce, as related results can pop up q
 > d: (X_{1} \times X_{2} \times ... \times X_{n}) \times (X_{1} \times X_{2} \times ... \times X_{n}) \mapsto \mathbb{R}
 > $$
 >
-> 
+> where $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}, d(x,y)$ is defined as:
+>
+> $$
+> d((x_{1}, ..., x_{n}), (y_{1},...,y_{n})) = \sqrt{d_{X_{1}}(x_{1},y_{1})^2 + ... + d_{X_{n}}(x_{n},y_{n})^2},
+> $$
+>
+> then $d(x,y)$ is a metric and $(X_{1} \times X_{2} \times ... \times X_{n}, d)$ is a metric space.
 
-NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
+{ :proof }
+> [Non-negativity](#M1):
+>
+> $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}:
+>
+>
+
+NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC 
 
 EXERCISES:
 
