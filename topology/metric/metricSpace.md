@@ -51,7 +51,10 @@ When you think about measuring distance between two objects intuitively, these s
 {: .proof }
 > [Non-negativity](#M1):
 > 
+> $ \\forall{x,y} \\in \\mathbb{R}^2$
+>
 > Note that the square root function is already non-negative, so we simply need to check $x=y \\iff d(x,y) = 0$.
+> 
 > If $x=y$, then $d(x,x)=\\sqrt{(x_{1}-x_{1})^2 + (x_{2}-x_{2})^2} = \\sqrt{0 + 0} = 0.$
 > 
 > If $d(x,y) = 0$, then $(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2 = 0$
@@ -59,7 +62,9 @@ When you think about measuring distance between two objects intuitively, these s
 >
 > [Symmetric](#M2):
 > 
-> $ \\forall{x,y} \\in \\mathbb{R}^2, d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$ 
+> $ \\forall{x,y} \\in \\mathbb{R}^2$,
+>
+> $d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$ 
 > 
 > $= \\sqrt{(-1(y_{1}-x_{1}))^2 + (-1(y_{2}-x_{2}))^2}$ 
 > 
@@ -70,6 +75,7 @@ When you think about measuring distance between two objects intuitively, these s
 > [Triangle Inequality](#M3):
 > 
 > Let $(x_{1}, x_{2}), (y_{1}, y_{2}), (z_{1}, z_{2}) \\in \\mathbb{R}^2$ be arbitrary.
+>
 > WTS: $\\sqrt{(x_{1}-z_{1})^2 + (x_{2}-z_{2})^2} \\leq \\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2} + \\sqrt{(y_{1}-z_{1})^2 + (y_{2}-z_{2})^2}.$
 > 
 > First, let $a_{i} = (x_{i}-y_{i})$ and $b_{i} = (y_{i}-z_{i}),$ then $(x_{i}-z_{i}) = (a_{i}+b_{i}).$
@@ -119,10 +125,16 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > We want to show that $d(x,y)$ is a metric.
 >
 > [Non-negativity](#M1):
-> By construction $d(x,y) \\geq 0$ and $d(x,y) = 0 \\iff x=y$
+>
+> By construction,  $\\forall{x,y} \\in \\mathbb{R}, d(x,y) \\geq 0$ and $d(x,y) = 0 \\iff x=y$
 >
 > [Symmetric](#M2):
-> If $x=y$, then $d(x,y) =0$ and $d(y,x) = 0 \\implies d(x,y) = d(y,x)$
+>
+>$\\forall{x,y} \\in \\mathbb{R}$:
+>
+> If $x=y$, then $d(x,y) = 0$ and $d(y,x) = 0 \\implies d(x,y) = d(y,x)$
+> 
+> If $x \\neq y$, then $d(x,y) = 1$ and $d(y,x) = 1 \\implies d(x,y) = d(y,x)$
 
 NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
 
