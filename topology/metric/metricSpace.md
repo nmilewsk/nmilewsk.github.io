@@ -155,7 +155,18 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 >
 >$\\implies \\forall{x,y,z} \\in \\mathbb{R}, d(x,y) \\leq d(x,z) + d(z,y)$, as required $\\square$
 
-There is one more metric that we will introduce, as it can pop up quite frequently. We move to show the product metric:
+There is one more metric that we will introduce, as related results can pop up quite frequently throughout the course. We move to define the product metric:
+
+{ :theorem }
+> Let $(X_{1},d_{X_{1}}), (X_{2},d_{X_{2}}), ..., (X_{n},d_{X_{n}})$ be finitely many metric spaces.
+> 
+> If we let
+>
+> $$
+> d: (X_{1} \times X_{2} \times ... \times X_{n}) \times (X_{1} \times X_{2} \times ... \times X_{n}) \mapsto \mathbb{R}
+> $$
+>
+> 
 
 NEXT IS DISCRETE METRIC, THEN LASTLY PRODUCT METRIC
 
