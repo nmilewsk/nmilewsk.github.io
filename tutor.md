@@ -23,9 +23,6 @@ I have vast experience working both in education and in the world of mathematics
   <div class="fs-field">
     <label class="fs-label" for="email">Email:</label>
     <input class="fs-input" id="email" name="email" required />
-    <p class="fs-description">
-      This will help me respond to your query via an email.
-    </p>
   </div>
   <div class="fs-field">
     <label class="fs-label" for="message">Message:</label>
@@ -35,7 +32,6 @@ I have vast experience working both in education and in the world of mathematics
       name="message"
       required
     ></textarea>
-    <p class="fs-description">What would you like to discuss?</p>
   </div>
   <div class="fs-button-group">
     <button class="fs-button" type="submit">Submit</button>
