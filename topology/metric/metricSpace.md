@@ -157,7 +157,7 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 
 There is one more metric that we will introduce, as related results can pop up quite frequently throughout the course. We move to define the product metric:
 
-{ : .theorem }
+{: .theorem }
 > Let $(X_{1},d_{X_{1}}), (X_{2},d_{X_{2}}), ..., (X_{n},d_{X_{n}})$ be finitely many metric spaces.
 > 
 > If we let
@@ -174,7 +174,7 @@ There is one more metric that we will introduce, as related results can pop up q
 >
 > then $d(x,y)$ is a metric and $(X_{1} \times X_{2} \times ... \times X_{n}, d)$ is a metric space.
 
-{ : .proof }
+{: .proof }
 > [Non-negativity](#M1):
 >
 > $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}:
