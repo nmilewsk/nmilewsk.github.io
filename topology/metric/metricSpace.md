@@ -31,13 +31,16 @@ Metric spaces, and their associated metrics, have been around you your whole lif
 When you think about measuring distance between two objects intuitively, these seem very straightforward. Distance does not care about direction, so it is always positive. The distance from a to b is the same as from b to a, and the shortest path between two points is a straight line. We now move to show a couple of metrics and proving that they, with an associated set, form a metric space.
 
 {: .theorem }
-> If we have $d$ be defined as follows:
+> If we let
 >
 > $$
 > d: \mathbb{R}^2 \times \mathbb{R}^2 \mapsto \mathbb{R} 
 > $$
 > 
-> where, for $x=(x_{1}, x_{2}), \\, y=(y_{1}, y_{2}) \\in \\mathbb{R}^2$, we let $d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$,
+> where $\\forall{x=(x_{1}, x_{2}), \\, y=(y_{1}, y_{2})} \\in \\mathbb{R}^2$, $d(x,y)$ is defined as
+>
+> $d(x,y)=\\sqrt{(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2}$,
+>
 > then $d(x,y)$ is a metric and $(\\mathbb{R}^2, d)$ is a metric space.
 
 
@@ -120,7 +123,7 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > \end{cases}
 > $$
 >
-> then $d(x,y)$ is a metric and $(\\mathbb{R},d) is a metric space$.
+> then $d(x,y)$ is a metric and $(\\mathbb{R},d)$ is a metric space.
 
 {: .proof }
 > [Non-negativity](#M1):
