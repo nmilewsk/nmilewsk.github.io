@@ -28,14 +28,18 @@ Defining open balls now allow us to begin characterizing sets as opened/closed.
 {: .definition }
 > Let $(X,d)$ be a metric space and let $U \\subseteq X$.
 >
-> $U$ is open if and only if $\\forall x \\in U, \ \\exists \\epsilon > 0 \\text{ such that } B_\\epsilon(x) \\subseteq X$.
-
-{: .definition }
-> Let $(X,d)$ be a metric space and let $C \\subseteq X$.
->
->$C$ is closed if and only if $X\C$ is open.
-
+> $U$ is <u><strong> open </strong></u> if and only if $\\forall x \\in U, \ \\exists \\epsilon > 0 \\text{ such that } B_\\epsilon(x) \\subseteq X$.
 
 <video autoplay loop muted playsinline width="100%">
   <source src="{{ site.baseurl }}/assets/videos/OpenInterval.mp4" type="video/mp4">
 </video>
+
+{: .definition }
+> Let $(X,d)$ be a metric space and let $U \\subseteq X$.
+>
+> A point $x$ is an <u><strong> interior point </strong></u> if $\\exists \\epsilon > 0 \\text{ such that } B_\\epsilon(x) \\subseteq X$.
+
+{: .definition }
+> Let $(X,d)$ be a metric space and let $C \\subseteq X$.
+>
+>$C$ is <u><strong> closed </strong></u> if and only if $X\C$ is open.
