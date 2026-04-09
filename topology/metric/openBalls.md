@@ -42,4 +42,4 @@ Defining open balls now allow us to begin characterizing sets as opened/closed.
 {: .definition }
 > Let $(X,d)$ be a metric space and let $C \\subseteq X$.
 >
->$C$ is <u><strong> closed </strong></u> if and only if $X\C$ is open.
+>$C$ is <u><strong> closed </strong></u> if and only if $X \\setminus C$ is open.
