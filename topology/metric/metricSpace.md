@@ -107,7 +107,7 @@ When you think about measuring distance between two objects intuitively, these s
 > 
 > Thus, $d$ is a metric, and by definition $(\\mathbb{R}^2, d)$ is a metric space. $\\square$
 
-The Euclidean Metric is fairly straightforward and indeed should make a lot of sense as to why it is considered a metric. However, metrics don't always "measure distance" in a canonical sense. Take for example the discrete metric:
+The Euclidean Metric is fairly straightforward and indeed should make a lot of sense as to why it is considered a metric. However, metrics don't always "measure distance" in the canonical sense. Take for example the discrete metric:
 
 {: .theorem }
 > If we let
@@ -154,56 +154,6 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 >
 >
 >$\\implies \\forall{x,y,z} \\in \\mathbb{R}, d(x,y) \\leq d(x,z) + d(z,y)$, as required $\\square$
-
-There is one more metric that we will introduce, as related results can pop up quite frequently throughout the course. We move to define the product metric:
-
-{: .theorem }
-> Let $(X_{1},d_{X_{1}}), (X_{2},d_{X_{2}}), ..., (X_{n},d_{X_{n}})$ be finitely many metric spaces.
-> 
-> If we let
->
-> $$
-> d: (X_{1} \times X_{2} \times ... \times X_{n}) \times (X_{1} \times X_{2} \times ... \times X_{n}) \mapsto \mathbb{R}
-> $$
->
-> where $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}, d(x,y)$ is defined as:
->
-> $$
-> d((x_{1}, ..., x_{n}), (y_{1},...,y_{n})) = \sqrt{d_{X_{1}}(x_{1},y_{1})^2 + ... + d_{X_{n}}(x_{n},y_{n})^2},
-> $$
->
-> then $d(x,y)$ is a metric and $(X_{1} \times X_{2} \times ... \times X_{n}, d)$ is a metric space.
-
-{: .proof }
-> [Non-negativity](#M1):
->
-> $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}$:
->
-> Note that each $d_{X_{i}}$ is a metric by assumption, so each term in the root is non-negative, thus the sum of the squares is non-negative and $d(x,y) \\geq 0$
->
-> If $x=y$, then each $x_{i} = y_{i} \\implies d_{X_{i}}(x_{i},y_{i}) = 0 \\implies d(x,y) = 0$.
->
-> If $d(x,y) = 0$, then $d_{X_{1}}(x_{1},y_{1})^2 + ... + d_{X_{n}}(x_{n},y_{n})^2 = 0$
->
-> Since each $d_{X_{i}}$ is non-negative, this forces $d_{X_{i}} = 0$ for every $i$.
->
-> $\\implies \\forall{i}, x_{i} = y_{i} \\implies x = y$.
->
-> [Symmetric](#M2):
->
-> $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}$:
->
-> Since each $d_{X_{i}}$ is a metric, $$d_{X_{i}}(x_{i},y_{i}) = d_{X_{i}}(y_{i},x_{i})$
->
-> $\\implies d(y,x) = \\sqrt{d_{X_{1}}(y_{1},x_{1})^2 + ... + d_{X_{n}}(y_{n},x_{n})^2} = \\sqrt{d_{X_{1}}(x_{1},y_{1})^2 + ... + d_{X_{n}}(x_{n},y_{n})^2}$
->
-> $\\implies d(y,x) = d(x,y)$.
->
-> [Triangle Inequality](#M3):
-> 
-> $\\forall{x,y,z} \\in  X_{1} \times X_{2} \times ... \times X_{n}$:
->
->
 
 
 EXERCISES:
