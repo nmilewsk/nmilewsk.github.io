@@ -50,7 +50,7 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 > Consider $\\mathbb{Q}$ equipped with the standard Euclidean metric. Show that
 >
 > $$
-> A = \{q \in \math{Q} \ | \ q^2 < 2 \}.
+> A = \{q \in \mathbb{Q} \ | \ q^2 < 2 \}.
 > $$
 >
 > is both open and closed.
@@ -80,4 +80,11 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > Now we show that A is closed as well.
 >
+> Let $B = \\mathbb{Q} \\setminus A = \{q \\in \\mathbb{Q} \ | \ q^2 \\geq 2 \}$.
+> 
+> Note that $x$ such that $x^2 = 2$ is NOT in $\\mathbb{Q}$, so $B = \{q \\in \\mathbb{Q} \ | \ q^2 > 2 \}$.
+>
+> With the same logic as above, we take $\\epsilon = x^2 - 2$ and choose $r = min(1, \\frac{\\epsilon}{2(|x|+1)}).
+>
+> Similarly, take $y \\in B_r(x).$ Then $|y^2 - x^2| \\leq |y-x|(|y-x| + 2|x|) <  r(r + 2|x|) < r \\cdot 2(1 + |x|) \\ leq \\epsilon \\implies |y^2 - x^2| < \\epsilon$
 > 
