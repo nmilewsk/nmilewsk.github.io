@@ -100,4 +100,4 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 > 
 > $\\implies y^2 < \\epsilon + x^2 = 2 \\implies B_r(x) \\subseteq B \\implies$ $B$ is open $\\implies$ $A$ is closed.
 >
-> Therefore $A$ is both open and closed $\\square$.
+> Therefore $A$ is both open and closed. $\\square$
