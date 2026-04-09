@@ -62,7 +62,7 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > We want to show that, $\\exists r > 0 \\text{ such that } \\forall y \\in \\mathbb{Q}, \\ \\vert y-x \\vert < r \\implies y \\in A$.
 >
-> Pick $r>0$ to be $r = min(1,\\frac{\\epsilon}{2( \\vert x \\vert +1)})$ <span id="clopen1"><strong>(1)</strong></span>
+> Pick $r>0$ to be $r = \\text{min}(1,\\frac{\\epsilon}{2( \\vert x \\vert +1)})$ <span id="clopen1"><strong>(1)</strong></span>
 >
 > Let $\\epsilon = 2-x^2$. Now take arbitrary $y \\in \\mathbb{Q} \\text{ such that } \\vert y-x \\vert < r$.
 >
@@ -90,13 +90,13 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 > 
 > Note that $x$ such that $x^2 = 2$ is NOT in $\\mathbb{Q}$, so $B = \{q \\in \\mathbb{Q} \ \\vert \ q^2 > 2 \}$.
 >
-> With the same logic as above, we take $\\epsilon = x^2 - 2$ and choose $r = min(1, \\frac{\\epsilon}{2( \\vert x \\vert +1)})$.
+> With the same logic as above, we take $\\epsilon = x^2 - 2$ and choose $r = \\text{min}(1, \\frac{\\epsilon}{2( \\vert x \\vert +1)})$.
 >
 > Similarly, take $y \\in \\mathbb{Q}.$ 
 >
-> Then $\\vert y^2 - x^2 \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert) <  r(r + 2 \\vert x \\vert ) < r \\cdot 2(1 + \\vert x \\vert ) \\leq \\epsilon 
+> Then $\\vert y^2 - x^2 \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert) <  r(r + 2 \\vert x \\vert ) < r \\cdot 2(1 + \\vert x \\vert ) \\leq \\epsilon$ 
 >
-> \\implies \\vert y^2 - x^2 \\vert < \\epsilon$
+> $\\implies \\vert y^2 - x^2 \\vert < \\epsilon$
 > 
 > $\\implies y^2 < \\epsilon + x^2 = 2 \\implies B_r(x) \\subseteq B \\implies$ $B$ is open $\\implies$ $A$ is closed.
 >
