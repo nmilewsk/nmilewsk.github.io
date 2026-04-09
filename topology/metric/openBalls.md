@@ -44,7 +44,7 @@ Defining open balls now allow us to begin characterizing sets as opened/closed.
 >
 >$C$ is <u><strong> closed </strong></u> if and only if $X \\setminus C$ is open.
 
-Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself is open, as is $\\emptyset$. This means that $X \\setminus X = \\emptyset$, so $X$ is closed. Similarly, $X \\setminus \\emptyset = X$, so $\\emptyset$ is closed. Both of these, trivially, are known as clopen sets. There do exist sets that are both open and closed. 
+Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself is open, as is $\\emptyset$. This means that $X \\setminus X = \\emptyset$, so $X$ is closed. Similarly, $X \\setminus \\emptyset = X$, so $\\emptyset$ is closed. Both of these, trivially, are known as clopen sets. There do exist other sets that are both open and closed. 
 
 {: .example }
 > Consider $\\mathbb{Q}$ equipped with the standard Euclidean metric. Show that
@@ -101,3 +101,5 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 > $\\implies y^2 < \\epsilon + x^2 = 2 \\implies B_r(x) \\subseteq B \\implies$ $B$ is open $\\implies$ $A$ is closed.
 >
 > Therefore $A$ is both open and closed. $\\square$
+
+SHOW UNIONS/INTERSECTIONS OF OPEN/CLOSED SETS
