@@ -58,35 +58,35 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 {: .proof }
 > Take any $x \\in A$. By construction, $x^2 < 2$, so $x^2 - 2 < 0 \\implies  2-x^2 > 0$.
 >
-> We want to show that, $\\exists r > 0 \\text{ such that } \\forall y \\in \\mathbb{Q} |y-x| < r \\implies y \\in A$.
+> We want to show that, $\\exists r > 0 \\text{ such that } \\forall y \\in \\mathbb{Q} \\vert y-x \\vert < r \\implies y \\in A$.
 >
-> Pick $r>0$ to be $r = min(1,\\frac{\\epsilon}{2(|x|+1)}) <span id="clopen1"><strong>(1)</strong></span>
+> Pick $r>0$ to be $r = min(1,\\frac{\\epsilon}{2( \\vert x \\vert +1)}) <span id="clopen1"><strong>(1)</strong></span>
 >
-> Let $\\epsilon = 2-x^2$. Now take arbitrary $y \\in mathbb{Q} \\text{ such that } |y-x| < r$.
+> Let $\\epsilon = 2-x^2$. Now take arbitrary $y \\in mathbb{Q} \\text{ such that } \\vert y-x \\vert < r$.
 >
-> Note that $|y^2 - x^2| = |y-x||y+x|$. By triangle inequality, $|y+x| = |(y-x) + 2x| \\leq |y-x| + |2x| = |y-x| + 2|x|$.
+> Note that $ \\vert y^2 - x^2 \\vert = \\vert y-x \\vert \\vert y+x \\vert$. By triangle inequality, $\\vert y+x \\vert = \\vert (y-x) + 2x \\vert \\leq  \\vert y-x \\vert +  \\vert 2x \\vert = \\vert y-x \\vert + 2 \\vert x \\vert$.
 >
-> Now $|y-x||y+x| \\leq |y-x|(|y-x| + 2|x|)$. By choice of $y$, we have that $|y-x|(|y-x| + 2|x|) < r(r + 2|x|)$.
+> Now $ \\vert y-x \\vert \\vert y+x \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert)$. By choice of $y$, we have that $\\vert y-x \\vert(\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert)$.
 >
-> By [(1)](#clopen1), $r \\leq 1 \\implies r + 2 |x| \\leq 1 + 2|x| < 2(1 + |x|) \\implies r(r + 2|x|) < r \\cdot 2(1 + |x|)$
+> By [(1)](#clopen1), $r \\leq 1 \\implies r + 2 \\vert x \\vert \\leq 1 + 2 \\vert x \\vert < 2(1 + \\vert x \\vert) \\implies r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert)$
 >
-> Once again by [(1)](#clopen1), $r \\leq \\frac{\\epsilon}{2(|x|+1)} \\implies r \\cdot 2(1 + |x|) \\leq \\frac{\\epsilon}{2(|x|+1)} \\cdot 2(1 + |x|) = \\epsilon$
+> Once again by [(1)](#clopen1), $r \\leq \\frac{\\epsilon}{2(\\vert x \\vert +1)} \\implies r \\cdot 2(1 + \\vert x \\vert) \\leq \\frac{\\epsilon}{2(\\vert x \\vert +1)} \\cdot 2(1 + \\vert x \\vert) = \\epsilon$
 >
-> We now have $|y^2 - x^2| \\leq |y-x|(|y-x| + 2|x|) < r(r + 2|x|) < r \\cdot 2(1 + |x|) \\ leq \\epsilon \\implies |y^2 - x^2| < \\epsilon$
+> We now have $\\vert y^2 - x^2 \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert) \\ leq \\epsilon \\implies \\vert y^2 - x^2 \\vert < \\epsilon$
 >
-> $\\implies -\\epsilon < |y^2 - x^2| < \\epsilon$. Since we only care about positive, this is equivalent to $y^2 < \\epsilon + x^2 = 2$.
+> $\\implies -\\epsilon < \\vert y^2 - x^2 \\vert < \\epsilon$. Since we only care about positive, this is equivalent to $y^2 < \\epsilon + x^2 = 2$.
 >
 > Thus $B_r(x) \\subseteq A \\implies$ A is open.
 >
 > Now we show that A is closed as well.
 >
-> Let $B = \\mathbb{Q} \\setminus A = \{q \\in \\mathbb{Q} \ | \ q^2 \\geq 2 \}$.
+> Let $B = \\mathbb{Q} \\setminus A = \{q \\in \\mathbb{Q} \ \\vert \ q^2 \\geq 2 \}$.
 > 
-> Note that $x$ such that $x^2 = 2$ is NOT in $\\mathbb{Q}$, so $B = \{q \\in \\mathbb{Q} \ | \ q^2 > 2 \}$.
+> Note that $x$ such that $x^2 = 2$ is NOT in $\\mathbb{Q}$, so $B = \{q \\in \\mathbb{Q} \ \\vert \ q^2 > 2 \}$.
 >
-> With the same logic as above, we take $\\epsilon = x^2 - 2$ and choose $r = min(1, \\frac{\\epsilon}{2(|x|+1)}).
+> With the same logic as above, we take $\\epsilon = x^2 - 2$ and choose $r = min(1, \\frac{\\epsilon}{2( \\vert x \\vert +1)}).
 >
-> Similarly, take $y \\in B_r(x).$ Then $|y^2 - x^2| \\leq |y-x|(|y-x| + 2|x|) <  r(r + 2|x|) < r \\cdot 2(1 + |x|) \\ leq \\epsilon \\implies |y^2 - x^2| < \\epsilon$
+> Similarly, take $y \\in B_r(x).$ Then $\\vert y^2 - x^2 \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert) <  r(r + 2 \\vert x \\vert ) < r \\cdot 2(1 + \\vert x \\vert ) \\ leq \\epsilon \\implies \\vert y^2 - x^2 \\vert < \\epsilon$
 > 
 > $\\implies y^2 < \\epsilon + x^2 = 2 \\implies B_r(x) \\subseteq B \\implies$ B is open $\\implies$ A is closed.
 >
