@@ -190,6 +190,20 @@ There is one more metric that we will introduce, as related results can pop up q
 > $\\implies \\forall{i}, x_{i} = y_{i} \\implies x = y$.
 >
 > [Symmetric](#M2):
+>
+> $\\forall{x,y} \\in X_{1} \times X_{2} \times ... \times X_{n}$:
+>
+> Since each $d_{X_{i}}$ is a metric, $$d_{X_{i}}(x_{i},y_{i}) = d_{X_{i}}(y_{i},x_{i})$
+>
+> $\\implies d(y,x) = \\sqrt{d_{X_{1}}(y_{1},x_{1})^2 + ... + d_{X_{n}}(y_{n},x_{n})^2} = \\sqrt{d_{X_{1}}(x_{1},y_{1})^2 + ... + d_{X_{n}}(x_{n},y_{n})^2}$
+>
+> $\\implies d(y,x) = d(x,y)$.
+>
+> [Triangle Inequality](#M3):
+> 
+> $\\forall{x,y,z} \\in  X_{1} \times X_{2} \times ... \times X_{n}$:
+>
+>
 
 
 EXERCISES:
