@@ -88,3 +88,6 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > Similarly, take $y \\in B_r(x).$ Then $|y^2 - x^2| \\leq |y-x|(|y-x| + 2|x|) <  r(r + 2|x|) < r \\cdot 2(1 + |x|) \\ leq \\epsilon \\implies |y^2 - x^2| < \\epsilon$
 > 
+> $\\implies y^2 < \\epsilon + x^2 = 2 \\implies B_r(x) \\subseteq B \\implies$ B is open $\\implies$ A is closed.
+>
+> Therefore A is both open and closed $\\square$$.
