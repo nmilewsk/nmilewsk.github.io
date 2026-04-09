@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 <video autoplay loop muted playsinline width="100%">
-  <source src="{{ site.baseurl }}/assets/videos/open_ball.webm" type="video/webm">
+  <source src="{{ site.baseurl }}/assets/videos/open_ball.apng" type="video/apng">
 </video>
 
 <video autoplay loop muted playsinline width="100%">
