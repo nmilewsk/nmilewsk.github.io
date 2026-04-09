@@ -9,11 +9,15 @@ callouts:
   pop:
     color: blue
   theorem:
-    title: Theorem
+    title: "Theorem:"
     color: yellow
   definition:
-    title: Definition
+    title: "Definition:"
     color: green
   proof:
     title: "Proof:"
     color: grey-lt
+  example:
+    title: "Example:"
+    color: grey-dk-000
+  
