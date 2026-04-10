@@ -9,6 +9,9 @@ nav_order: 1
 
 Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please note that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
 
+## Logic
+
+Mathematics builds upon itself by making statements and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements? Well first we should fully understand the underlying logic behind such statements.
 
 ## Language
 
