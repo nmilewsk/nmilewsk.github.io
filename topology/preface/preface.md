@@ -9,7 +9,7 @@ nav_order: 1
 
 Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please note that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
 
-## Logic
+## <u>Logic</u>
 
 Mathematics builds upon itself by making statements and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
@@ -18,7 +18,7 @@ Mathematics builds upon itself by making statements and consequently proving the
 
 In simpler terms, a statement is a claim that it is either true or false.
 
-## Language
+## <u>Language</u>
 
 | A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill. |
 
@@ -47,8 +47,6 @@ $$
 > A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U$, $x \\in V.$ We denote this by $U \\subseteq V.$
 > 
 > Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U$, $x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally.
-
-## Logic
 
 ## Exercises
 
