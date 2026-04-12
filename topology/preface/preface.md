@@ -5,7 +5,7 @@ parent: Preface
 nav_order: 1
 ---
 
-# Notation
+# <strong>Notation<\strong>
 
 Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please note that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
 
@@ -20,10 +20,9 @@ In simpler terms, a statement is a claim that it is either true or false.
 
 ## Language
 
-{: .pop }
-> A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill.
-> 
-> The <u><strong>empty set</strong></u> is the set containing no elements. The empty set is given by this notation: $\emptyset$.
+| A <u><strong>set</strong></u> (might also be referred to as a family at times) is a collection of distinct elements. A set's elements can be characterized by either listing the elements or stating some property that the elements fulfill. |
+
+| The <u><strong>empty set</strong></u> is the set containing no elements. The empty set is given by this notation: $\emptyset$. |
 
 {: .pop }
 > If $x$ is an element of the set $A$, we write $x \\in A$. Conversely, if $y$ is not an element of the set $A$, we write $y \\notin A$.
