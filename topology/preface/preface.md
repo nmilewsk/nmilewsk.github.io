@@ -22,8 +22,7 @@ In simpler terms, a statement is a claim that it is either true or false.
 
 | The <u><strong>empty set</strong></u> is the set containing no elements. The empty set is given by this notation: $\emptyset$. |
 
-{: .pop }
-> If $x$ is an element of the set $A$, we write $x \\in A$. Conversely, if $y$ is not an element of the set $A$, we write $y \\notin A$.
+If $x$ is an element of the set $A$, we write $x \\in A$. Conversely, if $y$ is not an element of the set $A$, we write $y \\notin A$.
 
 When stating some property that characterizes elements of some set $A$, it might come in handy to use logical quantifiers and operators. Logical quantifiers and operators help us communicate both the existence and quantity of x that fulfill the property. First we use the symbol $\\forall x$ to assert that the property holds for every $x$. Next we use the symbol $\\exists x$ to assert that the property holds for at least one $x$. Lastly, and we won't use this symbol much at all, but we can negate either of these assertions with $\\neg$. We will generally denote $\\neg \\exists$ by $\\not \\exists$, but $\\neg \\forall$ is a little trickier. We generally will not use a notation for this negation, but it is equivalent to saying that there exists some $x$ where the property does not hold.
 
@@ -32,19 +31,18 @@ When stating some property that characterizes elements of some set $A$, it might
 > $$
 > \{x \in A \ | \ x \neq y\}.
 > $$
+>
+> $$
+> \forall x \in A \text{ such that } x \neq y.
+> $$
+>
+> $$
+> \text{ every x in A that is not y}.
+> $$
 
-$$
-\forall x \in A \text{ such that } x \neq y.
-$$
+| A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U$, $x \\in V.$ We denote this by $U \\subseteq V.$ |
 
-$$
-\text{ every x in A that is not y}.
-$$
-
-{: .pop }
-> A set $U$ is a <u><strong>subset</strong></u> of $V$ if $\\forall x \\in U$, $x \\in V.$ We denote this by $U \\subseteq V.$
-> 
-> Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U$, $x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally.
+| Similarly, a set $U$ is a <u><strong>proper subset</strong></u> of $V$ if  $\\forall x \\in U$, $x \\in V$ AND $U \\neq V.$ We denote this mainly by $U \\subset V$, but $U \\subsetneq V$ is also used occasionally. |
 
 ## Exercises
 
