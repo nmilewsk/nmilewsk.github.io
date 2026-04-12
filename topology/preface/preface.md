@@ -16,17 +16,19 @@ Mathematics builds upon itself by making statements and consequently proving the
 
 In simpler terms, a statement is a claim that it is either true or false. Common examples of these would be:
 
-$$
-\text{The number 51 is not prime.}
-$$
+> $$
+> \text{The number 51 is not prime.}
+> $$
+> 
+> $$
+> \lim_{x \to \infty} \sin{x} \text{ does not exist.}
+> $$
+> 
+> $$
+> \sqrt{2} \text{ is irrational.}
+> $$
 
-$$
-\lim_{x \to \infty} \sin{x} \text{ does not exist.}
-$$
 
-$$
-\sqrt{2} \text{ is irrational.}
-$$
 
 ## <u>Language</u>
 
