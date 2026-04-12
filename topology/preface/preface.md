@@ -13,7 +13,10 @@ Please note that most of the following can be defined in much greater detail in 
 
 Mathematics builds upon itself by making statements and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
-\In mathematics, a <u><strong>statement</strong></u> is a claim in which a boolean value can be attributed to. In simpler terms, it is either true or false.
+| In mathematics, a <u><strong>statement</strong></u> is a declaration in which a boolean value can be attributed to. |
+
+
+In simpler terms, a statement is a claim that it is either true or false.
 
 ## Language
 
