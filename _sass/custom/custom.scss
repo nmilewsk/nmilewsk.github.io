@@ -399,6 +399,11 @@ fieldset {
   }
 }
 
-.callout {
+.callout-content {
   overflow-x: auto;
+}
+
+mjx-container[jax="CHTML"] {
+  overflow-x: auto;
+  max-width: 100%;
 }
