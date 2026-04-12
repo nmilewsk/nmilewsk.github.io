@@ -21,7 +21,7 @@ $$
 $$
 
 $$
-\lim{x \to \infty} \sin{x} \text{ does not exist.}
+\lim_{x \to \infty} \sin{x} \text{ does not exist.}
 $$
 
 $$
