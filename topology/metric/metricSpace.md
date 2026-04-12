@@ -150,7 +150,7 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 >
 > If $x \\neq y$, then $ 1 \\leq d(x,z) + d(z,y)$. Note that his fails if $d(x,z) = 0 = d(z,y)$
 >
-> $\\implies x = z$ and $z = y // implies x = y$, which contradicts that $x \\neq y$.
+> $\\implies x = z$ and $z = y  \\implies x = y$, which contradicts that $x \\neq y$.
 >
 >$\\implies \\forall{x,y,z} \\in \\mathbb{R}, d(x,y) \\leq d(x,z) + d(z,y)$, as required $\\square$
 
