@@ -29,9 +29,9 @@ When stating some property that characterizes elements of some set $A$, it might
 
 > Note that set builder notation can imply a for all quantifier without use of the symbol. For example, the following statements are referring to the same collection of elements:
 >
->$$
->\{x \in A \ | \ x \neq y\}.
->$$
+> $$
+> \{x \in A \ | \ x \neq y\}.
+> $$
 
 $$
 \forall x \in A \text{ such that } x \neq y.
