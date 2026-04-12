@@ -19,9 +19,11 @@ In simpler terms, a statement is a claim that it is either true or false. Common
 $$
 \text{The number 51 is not prime.}
 $$
+
 $$
-\lim{x \to \inf} \sin{x} \text{ does not exist.}
+\lim{x \to \infty} \sin{x} \text{ does not exist.}
 $$
+
 $$
 \sqrt{2} \text{ is irrational.}
 $$
