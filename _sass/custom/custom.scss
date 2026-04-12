@@ -373,20 +373,6 @@ fieldset {
   white-space: nowrap;
 }
 
-.side-bar {
-  padding-left: 0;
-  left: 0;
-  width: 16.5rem;
-}
-
-#top.main {
-  margin-left: 16.5rem !important;
-}
-
-.main-content-wrap {
-  padding-left: 1rem;
-}
-
 .site-header {
   max-height: 5rem;
   height: 5rem;
@@ -395,4 +381,20 @@ fieldset {
 
 .main-header {
   height: 5rem;
+}
+
+@media (min-width: 50rem) {
+  .side-bar {
+    padding-left: 0;
+    left: 0;
+    width: 16.5rem;
+  }
+
+  #top.main {
+    margin-left: 16.5rem;
+  }
+
+  .main-content-wrap {
+    padding-left: 1rem;
+  }
 }
