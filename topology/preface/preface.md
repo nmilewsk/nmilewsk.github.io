@@ -28,6 +28,21 @@ In simpler terms, a statement is a claim that it is either true or false. Common
 > \sqrt{2} \text{ is irrational.}
 > $$
 
+Statements can be linked to form a single statement relying on the truth value of both. Think about the following two statements: 
+
+<p style="text-align: center;">"It is raining."</p> 
+<p style="text-align: center;">"It is sunny."</p> 
+
+Given these two statements, we can create two distinct statements: 
+
+<p style="text-align: center;">"It is raining and it is sunny."</p>
+<p style="text-align: center;">"It is raining or it is sunny." </p>
+
+Quite often, the truth of mathematical statements is linked to some other property.
+
+| A <u><strong>conditional statement</strong></u> is a statement which is always true so long as a certain condition is met. |
+
+In a conditional statement, the condition is known as the hypothesis (denoted P) and the statement itself is known as the conclusion (denoted Q). 
 
 
 ## <u>Language</u>
