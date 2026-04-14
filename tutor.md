@@ -6,7 +6,7 @@ has_toc: false
 nav_order: 4
 ---
 <style>
-  main { max-width: 100% !important; } 
+  .main { max-width: 100% !important; } 
 </style>
 
 # TEST
