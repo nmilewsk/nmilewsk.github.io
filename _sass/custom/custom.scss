@@ -423,6 +423,7 @@ blockquote {
 
 .side-by-side .text-content {
   flex: 1;
+  min-width: 0;
 }
 
 @media (max-width: 768px) {
@@ -437,6 +438,8 @@ blockquote {
 /** letter block **/
 
 .content-card {
+  width: 100%;
+  box-sizing: border-box;
   background-color: #5ea1fb;
   border-radius: 8px;
   padding: 2rem;
