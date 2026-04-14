@@ -8,7 +8,7 @@ nav_order: 4
 <style>
   #main-content,
   .main-content-wrap {
-    max-width: 100% !important;
+    max-width: 100rem !important;
   }
 </style>
 
