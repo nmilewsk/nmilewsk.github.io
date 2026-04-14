@@ -402,3 +402,31 @@ fieldset {
 blockquote {
   overflow-x: auto;
 }
+
+/** picture side by side **/
+
+.side-by-side {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.side-by-side img {
+  width: 45%;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.side-by-side .text-content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .side-by-side {
+    flex-direction: column;
+  }
+  .side-by-side img {
+    width: 100%;
+  }
+}
