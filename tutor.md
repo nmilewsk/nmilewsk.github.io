@@ -6,7 +6,6 @@ nav_order: 4
 ---
 
 <div class="side-by-side">
-  <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
   <div class="text-content">
     <div class ="content-card">
       <p> I have vast experience working both in education and in the world of mathematics, having tutored a number of students in fields ranging from grade school math up to differential equations and beyond. I aim to improve not just grades but the understanding of the content and its underlying logic. I always adapt my lessons based on the needs of my students. If you have any inquiries/questions, please fill out the form below to reach out to me! </p>
@@ -40,4 +39,5 @@ nav_order: 4
       </div>
     </form>
   </div>
+  <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
