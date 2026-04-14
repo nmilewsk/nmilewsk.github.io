@@ -6,7 +6,8 @@ has_toc: false
 nav_order: 4
 ---
 <style>
-  #main-content,
+  .main
+  .main-content,
   .main-content-wrap {
     max-width: 100rem !important;
   }
