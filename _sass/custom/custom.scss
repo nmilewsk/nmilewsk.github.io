@@ -457,7 +457,6 @@ blockquote {
 
 /* Container for the whole FAQ */
 .faq-item {
-  border-bottom: 1px solid #eee;
   padding: 1rem 0;
   cursor: pointer;
 }
@@ -473,7 +472,7 @@ blockquote {
 
 /* Custom indicator: adds a '+' that turns into a '-' when open */
 .faq-question::after {
-  content: '+';
+  content: 'V';
   font-size: 1.2rem;
 }
 
@@ -484,6 +483,5 @@ blockquote {
 /* The answer area */
 .faq-answer {
   padding-top: 0.5rem;
-  color: #555;
   line-height: 1.6;
 }
