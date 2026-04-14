@@ -442,7 +442,7 @@ blockquote {
   box-sizing: border-box;
   background-color: #5ea1fb;
   border-radius: 8px;
-  padding: 2rem;
+  padding: 1rem;
   color: #ffffff;
   line-height: 1.8;
 }
@@ -453,9 +453,7 @@ blockquote {
   font-size: 1.8rem;
 }
 
-.wide-page main,
-.wide-page .main-content-wrap,
-.wide-page #main-content {
+.wide-page #main-content,
+.wide-page .main-content-wrap {
   max-width: 100% !important;
-  padding-right: 1rem;
 }
