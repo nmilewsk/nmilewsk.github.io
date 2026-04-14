@@ -473,7 +473,7 @@ blockquote {
 
 /* Custom indicator: adds a '+' that turns into a '-' when open */
 .faq-question::after {
-  content: 'V';
+  content: '+';
   font-size: 1.2rem;
 }
 
