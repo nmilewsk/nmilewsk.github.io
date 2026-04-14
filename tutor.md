@@ -3,12 +3,15 @@ title: Private Tutoring
 layout: default
 has_toc: false
 nav_order: 4
+questions:
+  - q: "What is Jekyll?"
+    a: "A static site generator."
+  - q: "Can I use it with GitHub?"
+    a: "Yes, via GitHub Pages."
 ---
 <style>
   .main { max-width: 100% !important; } 
 </style>
-
-# TEST
 
 <div class="side-by-side">
   <div class="text-content">
@@ -46,3 +49,8 @@ nav_order: 4
   </div>
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
+
+{% for item in page.questions %}
+**{{ item.q }}**  
+{{ item.a }}
+{% endfor %}
