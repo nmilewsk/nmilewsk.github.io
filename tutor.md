@@ -50,7 +50,13 @@ questions:
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
 
-{% for item in page.questions %}
-**{{ item.q }}**  
-{{ item.a }}
+{% for item in site.data.faqs %}
+<details class="faq-item">
+  <summary class="faq-question">
+    {{ item.question }}
+  </summary>
+  <div class="faq-answer">
+    <p>{{ item.answer }}</p>
+  </div>
+</details>
 {% endfor %}
