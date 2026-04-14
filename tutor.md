@@ -1,9 +1,12 @@
 ---
 title: Private Tutoring
 layout: default
+body_class: wide-page
 has_toc: false
 nav_order: 4
 ---
+
+# TEST
 
 <div class="side-by-side">
   <div class="text-content">
