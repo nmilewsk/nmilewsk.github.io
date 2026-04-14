@@ -38,37 +38,3 @@ nav_order: 4
     </form>
   </div>
 </div>
-
-
-<img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation" width="500">
-
-
-# Contact Me
-
-<form
-  action="https://formspree.io/f/xreodnnl"
-  method="POST"
-  class="fs-form"
-  target="_top"
->
-  <div class="fs-field">
-    <label class="fs-label" for="name">Name:</label>
-    <input class="fs-input" id="name" name="name" required />
-  </div>
-  <div class="fs-field">
-    <label class="fs-label" for="email">Email:</label>
-    <input class="fs-input" id="email" name="email" required />
-  </div>
-  <div class="fs-field">
-    <label class="fs-label" for="message">Message:</label>
-    <textarea
-      class="fs-textarea"
-      id="message"
-      name="message"
-      required
-    ></textarea>
-  </div>
-  <div class="fs-button-group">
-    <button class="fs-button" type="submit">Submit</button>
-  </div>
-</form>
