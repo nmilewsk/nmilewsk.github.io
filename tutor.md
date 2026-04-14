@@ -53,10 +53,10 @@ faqs:
 {% for item in page.faqs %}
 <details class="faq-item">
   <summary class="faq-question">
-    {{ item.question }}
+    {{ item.q }}
   </summary>
   <div class="faq-answer">
-    <p>{{ item.answer }}</p>
+    <p>{{ item.a }}</p>
   </div>
 </details>
 {% endfor %}
