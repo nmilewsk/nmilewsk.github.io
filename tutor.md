@@ -51,8 +51,8 @@ faqs:
 </div>
 
 {% for item in page.faqs %}
-<details class="faq-item">
-  <summary class="faq-question">
+<details class="faq-container">
+  <summary class="faq-button">
     {{ item.q }}
   </summary>
   <div class="faq-answer">
