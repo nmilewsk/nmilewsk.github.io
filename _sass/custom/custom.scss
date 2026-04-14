@@ -430,3 +430,19 @@ blockquote {
     width: 100%;
   }
 }
+
+/** letter block **/
+
+.content-card {
+  background-color: #181755;  /* change to any color you like */
+  border-radius: 8px;
+  padding: 2rem;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+.content-card h2 {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
