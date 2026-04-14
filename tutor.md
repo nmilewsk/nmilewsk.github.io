@@ -5,6 +5,12 @@ body_class: wide-page
 has_toc: false
 nav_order: 4
 ---
+<style>
+  #main-content,
+  .main-content-wrap {
+    max-width: 100% !important;
+  }
+</style>
 
 # TEST
 
