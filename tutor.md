@@ -6,11 +6,8 @@ has_toc: false
 nav_order: 4
 ---
 <style>
-  .main
-  .main-content,
-  .main-content-wrap {
-    max-width: 100rem !important;
-  }
+  /* Use !important to ensure it beats the theme's default CSS */
+  body { max-width: 100% !important; } 
 </style>
 
 # TEST
