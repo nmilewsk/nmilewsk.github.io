@@ -4,7 +4,7 @@ layout: default
 has_toc: false
 nav_order: 4
 faqs:
-  - q: "What is Jekyll?"
+  - q: "What is !!!! Jekyll?"
     a: "A static site generator."
   - q: "Can I use it with GitHub?"
     a: "Yes, via GitHub Pages."
