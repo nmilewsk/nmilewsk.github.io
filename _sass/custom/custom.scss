@@ -452,3 +452,38 @@ blockquote {
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
 }
+
+/** question **/
+
+/* Container for the whole FAQ */
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+/* The clickable question */
+.faq-question {
+  font-weight: bold;
+  list-style: none; /* Hides default arrow in some browsers */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Custom indicator: adds a '+' that turns into a '-' when open */
+.faq-question::after {
+  content: '+';
+  font-size: 1.2rem;
+}
+
+.faq-item[open] .faq-question::after {
+  content: '-';
+}
+
+/* The answer area */
+.faq-answer {
+  padding-top: 0.5rem;
+  color: #555;
+  line-height: 1.6;
+}
