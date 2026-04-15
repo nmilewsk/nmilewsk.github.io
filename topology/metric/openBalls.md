@@ -62,7 +62,7 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > We want to show that, $\\exists r > 0 \\text{ such that } \\forall y \\in \\mathbb{Q}, \\ \\vert y-x \\vert < r \\implies y \\in A$.
 >
-> Pick $r>0$ to be $r = \\text{min}(1,\\frac{\\epsilon}{2( \\vert x \\vert +1)})$ <span id="clopen1"><strong>(1)</strong></span>
+> Pick $r>0$ to be $r = \\text{min}(1,\\frac{\\epsilon}{2( \\vert x \\vert +1)})$ $\\tag{1} \\label{1}$
 >
 > Let $\\epsilon = 2-x^2$. Now take arbitrary $y \\in \\mathbb{Q} \\text{ such that } \\vert y-x \\vert < r$.
 >
@@ -74,9 +74,9 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > By choice of $y$, we have that $\\vert y-x \\vert(\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert)$.
 >
-> By [(1)](#clopen1), $r \\leq 1 \\implies r + 2 \\vert x \\vert \\leq 1 + 2 \\vert x \\vert < 2(1 + \\vert x \\vert) \\implies r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert)$
+> By $\\ref{1}$, $r \\leq 1 \\implies r + 2 \\vert x \\vert \\leq 1 + 2 \\vert x \\vert < 2(1 + \\vert x \\vert) \\implies r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert)$
 >
-> Once again by [(1)](#clopen1), $r \\leq \\frac{\\epsilon}{2(\\vert x \\vert +1)} \\implies r \\cdot 2(1 + \\vert x \\vert) \\leq \\frac{\\epsilon}{2(\\vert x \\vert +1)} \\cdot 2(1 + \\vert x \\vert) = \\epsilon$
+> Once again by $\\ref{1}$, $r \\leq \\frac{\\epsilon}{2(\\vert x \\vert +1)} \\implies r \\cdot 2(1 + \\vert x \\vert) \\leq \\frac{\\epsilon}{2(\\vert x \\vert +1)} \\cdot 2(1 + \\vert x \\vert) = \\epsilon$
 >
 > We now have:
 >
