@@ -74,29 +74,31 @@ faqs:
 {% endfor %}
 
 <script>
-  // Select all FAQ items
+document.addEventListener('DOMContentLoaded', function() {
   const faqItems = document.querySelectorAll('details.faq-container');
 
-  faqItems.forEach((selectedItem) => {
-    selectedItem.addEventListener('toggle', (event) => {
-      // Only run if the item was just OPENED
-      if (selectedItem.open) {
-        
-        // 1. Optional: Close all other open questions
+  faqItems.forEach((item) => {
+    item.addEventListener('toggle', function() {
+      // Only scroll if the item is now open
+      if (this.open) {
+        // 1. Close all other open questions (optional accordion effect)
         faqItems.forEach((otherItem) => {
-          if (otherItem !== selectedItem) {
+          if (otherItem !== this) {
             otherItem.removeAttribute('open');
           }
         });
 
-        // 2. Wait 100ms for the answer to "appear" then scroll
+        // 2. Scroll to the clicked item
+        // A slight delay (200ms) helps the browser calculate the new page height
         setTimeout(() => {
-          selectedItem.scrollIntoView({
+          this.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
           });
-        }, 100);
+        }, 200);
       }
     });
   });
+});
 </script>
+
