@@ -29,3 +29,7 @@ nav_order: 1
     <img src="{{ site.baseurl }}/assets/images/trainPose.jpeg" alt="about_me" width="300">
 </div>
 
+[Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-blue }
+[Topology](https://nmilewsk.github.io/topology/){: .btn .btn-blue }
+[My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-blue }
+
