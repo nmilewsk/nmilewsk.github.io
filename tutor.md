@@ -60,6 +60,8 @@ faqs:
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
 
+
+
 {: .text-center }
 # FAQ
 <br>
