@@ -17,6 +17,6 @@ nav_order: 1
             <p> test test </p>
         </div>
     </div>
-    <img src="{{ site.baseurl }}/assets/images/trainPose.jpeg" alt="about_me" width="600">
+    <img src="{{ site.baseurl }}/assets/images/trainPose.jpeg" alt="about_me" width="300">
 </div>
 
