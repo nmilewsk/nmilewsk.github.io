@@ -40,14 +40,14 @@ $$
 Given these two statements, we can create two distinct compound statements: 
 
 $$
-\text{"It is raining and it is sunny."} \tag{(1)} \label{and}
+\text{"It is raining and it is sunny."} \tag{1} \label{and}
 $$
 
 $$
-\text{"It is raining or it is sunny."} \tag{(2)} \label{or}
+\text{"It is raining or it is sunny."} \tag{2} \label{or}
 $$
 
-If we let $P=\\text{it is raining}$ and $Q=\\text{it is sunny}$, we can write $\\ref{and}$ as $P \\wedge Q$ and $\\ref{or}$ as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR. We can then represent the truth of $\\ref{and}$ and $\\ref{or}$ using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
+If we let $P=\\text{it is raining}$ and $Q=\\text{it is sunny}$, we can write $\\ref{and}$ as $P \\wedge Q$ and $\\ref{or}$ as $P \\lor Q$ where $\\wedge$ is a symbol for logical AND and $\\lor$ is a symbol for logical OR. We can then represent the truth of $\\ref{and}$ and $\\ref{or}$ using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
 
 | $P$ | $Q$ | $P \\wedge Q$ | $P \\lor Q$ |
 |:----|:----|:--------------|:------------|
@@ -72,7 +72,7 @@ These statements are better known as "if-then" statements and are everywhere in 
 This truth table might not be as straight forward as the logical AND/OR table, but first we focus on when $P \\implies Q$ should be false. $P \\implies Q$ tells us that whenever $P$ is true, $Q$ must be as well. For this to be false, we must have $P$ as true and $Q$ as false, which is where $P \\implies Q$ is listed as false. Note that $P \\implies Q$ does <u>NOT</u> tell us about the truth of $Q$ when $P$ is false. Consider, for example, the following conditional:
 
 $$
-\text{If it is raining, the lawn will be wet.} \tag{(3)} \label{->}
+\text{If it is raining, the lawn will be wet.} \tag{3} \label{->}
 $$
 
 Indeed whenever it rains, the lawn will be wet. But what if it isn't raining, but you still watered your grass? Given this truth of our hypothesis and conclusion (i.e. $P$ is false and $Q$ is true) you say that $\\ref{->}$ is false? Well, for it to be false, we would need to show that it rained and the lawn was NOT wet. Since this scenario does not prove that it is false, we say that $\\ref{->}$ is true in this case. That seems a little confusing, because we aren't exactly confirming the conditional. However, remember that statements exist on a binary: they must either be true or false. Since $\\ref{->}$ cannot be false, it must be true. What if we had two statements, $P$ and $Q$, where the truth of $P$ implies the truth of $Q$ <u>AND</U> the truth of $Q$ implies the truth of $P$?
