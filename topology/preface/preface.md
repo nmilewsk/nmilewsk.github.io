@@ -27,7 +27,14 @@ $$
 \sqrt{2} \text{ is irrational.}
 $$
 
-Two or more statements can be linked to form a single joined statement known as a compound statements. The truth of a compound statement relies on the truth values of the statements involved. Think about the following two statements: 
+While all of the above are true statements, what if we had a false statement, but wanted to represent it as true? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\negP$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
+
+| $P$ | $\\neg P$ |
+|:----|:----------|
+|T    |F          |
+|F    |T          |
+
+This is pretty straight forward, $\\neg P$ is true when $P$ is false and vice versa. Two or more statements can be linked to form a single joined statement known as a compound statement. The truth of a compound statement relies on the truth values of the statements involved. Think about the following two statements: 
 
 $$
 \text{It is raining.}
@@ -49,7 +56,7 @@ $$
 \text{It is raining or it is sunny.}
 $$ <span id="or"><strong>(2)</strong></span>
 
-If we let $P=$it is raining and $Q=$ it is sunny, we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR[^a]. We can then represent the truth of [(1)](#and) and [(2)](#or) using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
+If we let $P=$ "it is raining" and $Q=$ "it is sunny", we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR[^a]. Here is a truth table for these connectives:
 
 | $P$ | $Q$ | $P \\wedge Q$ | $P \\lor Q$ |
 |:----|:----|:--------------|:------------|
@@ -91,7 +98,15 @@ Given some P and Q, the biconditional statement would read "P if and only if Q" 
 |F    |T    |T                |F                |F            |
 |F    |F    |T                |T                |T            |
 
-Note that if either $P$ or $Q$ is true, then, in order for $P \\iff Q$ to be true, the other must also be true. To make sense of this, we again first focus on when $P \\iff Q$ would be false.
+Note that if either $P$ or $Q$ is true, then, in order for $P \\iff Q$ to be true, the other must also be true. To make sense of this, we again first focus on when $P \\iff Q$ would be false. We have two cases where $P \\iff Q$ is false: $P$ is true and $Q$ is false, or $Q$ is true and $P$ is false. This is because these imply that one of $P \\implies Q$ or $Q \\implies P$ is false, and $P \\iff Q$ hinges on the truth of both. The case where $P$ and $Q$ are both false ends up giving us that $P \\implies Q$ and $Q \\implies P$ are both true, so $P \\iff Q$ is also true. 
+
+Some statements can be thought of as functions, where you have some input and the output is the truth value. Consider the following statement as an example:
+
+$$
+x \text{ is an odd number.}
+$$
+
+This sort of statement is known as a predicate, where the input, $x$, is known as a free variable. In this case, the statement is true whenever we input an odd number. Given a predicate $P(x)$, we can quantify either whether the statement is always true or whether the statement is ever true
 
 ## <u>Language</u>
 
