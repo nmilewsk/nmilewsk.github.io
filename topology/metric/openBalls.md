@@ -72,7 +72,7 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > Now $ \\vert y-x \\vert \\vert y+x \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert)$. 
 >
->By choice of $y$, we have that $\\vert y-x \\vert(\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert)$.
+> By choice of $y$, we have that $\\vert y-x \\vert(\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert)$.
 >
 > By [(1)](#clopen1), $r \\leq 1 \\implies r + 2 \\vert x \\vert \\leq 1 + 2 \\vert x \\vert < 2(1 + \\vert x \\vert) \\implies r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert)$
 >
