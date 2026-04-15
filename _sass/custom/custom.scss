@@ -415,7 +415,7 @@ blockquote {
 
 .side-by-side img {
   width: 50%;
-  max-height: 1000px;
+  max-height: 400px;
   object-fit: cover;   /* crops nicely instead of squishing */
   flex-shrink: 0;
   border-radius: 4px;
@@ -483,4 +483,12 @@ blockquote {
   padding: 15px 25px;
   color: #FFFFFF;
   line-height: 1.6;
+}
+
+.button-row {
+  margin-top: 10px;
+}
+
+.button-row .btn {
+  margin-right: 8px;
 }

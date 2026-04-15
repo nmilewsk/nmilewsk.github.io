@@ -49,7 +49,7 @@ $$
 \text{It is raining or it is sunny.}
 $$ <span id="or"><strong>(2)</strong></span>
 
-If we let $P=$it is raining and $Q=$ it is sunny, we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR[^1]. We can then represent the truth of [(1)](#and) and [(2)](#or) using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
+If we let $P=$it is raining and $Q=$ it is sunny, we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR[^a]. We can then represent the truth of [(1)](#and) and [(2)](#or) using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
 
 | $P$ | $Q$ | $P \\wedge Q$ | $P \\lor Q$ |
 |:----|:----|:--------------|:------------|
@@ -134,4 +134,4 @@ When stating some property that characterizes elements of some set $A$, it might
     - $\\forall x P(x)$ is NOT true, so its negation is true: $\\exists x \\neg P(x).$
     - $\\exists x P(x)$ is true, so its negation is NOT true: $\\not \\exists x P(x).$
 
-[^1]: Note that logical OR can be either exclusive (ONLY one can be true) or inclusive (AT LEAST one can be true), we will generally be using inclusive.
+[^a]: Note that logical OR can be either exclusive (ONLY one can be true) or inclusive (AT LEAST one can be true), we will generally be using inclusive.
