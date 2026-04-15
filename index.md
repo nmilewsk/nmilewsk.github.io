@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About Me
 layout: home
 has_toc: false
 nav_order: 1
