@@ -60,6 +60,8 @@ faqs:
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
 
+## FAQ
+
 {% for item in page.faqs %}
 <details class="faq-container">
   <summary class="faq-button">
