@@ -30,21 +30,23 @@ $$
 Two or more statements can be linked to form a single joined statement known as a compound statements. The truth of a compound statement relies on the truth values of the statements involved. Think about the following two statements: 
 
 $$
-\text{"It is raining."}
+\text{''It is raining."}
 $$
 
 $$
-\text{"It is sunny."}
+\text{''It is sunny."}
 $$
 
 Given these two statements, we can create two distinct compound statements: 
 
+{: .text-center }
 $$
-\text{"It is raining and it is sunny."}
+\text{''It is raining and it is sunny."}
 $$ <span id="and"><strong>(1)</strong></span>
 
+{: .text-center }
 $$
-\text{"It is raining or it is sunny."}
+\text{''It is raining or it is sunny."}
 $$ <span id="or"><strong>(2)</strong></span>
 
 If we let $P=\\text{it is raining}$ and $Q=\\text{it is sunny}$, we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR. We can then represent the truth of [(1)](#and) and [(2)](#or) using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
@@ -71,6 +73,7 @@ These statements are better known as "if-then" statements and are everywhere in 
 
 This truth table might not be as straight forward as the logical AND/OR table, but first we focus on when $P \\implies Q$ should be false. $P \\implies Q$ tells us that whenever $P$ is true, $Q$ must be as well. For this to be false, we must have $P$ as true and $Q$ as false, which is where $P \\implies Q$ is listed as false. Note that $P \\implies Q$ does <u>NOT</u> tell us about the truth of $Q$ when $P$ is false. Consider, for example, the following conditional:
 
+{: .text-center }
 $$
 \text{If it is raining, the lawn will be wet.}
 $$ <span id="->"><strong>(3)</strong></span>
