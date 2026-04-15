@@ -74,18 +74,28 @@ faqs:
 {% endfor %}
 
 <script>
-  // Select all FAQ containers
-  const details = document.querySelectorAll('details.faq-container');
+  // Select all FAQ items
+  const faqItems = document.querySelectorAll('details.faq-container');
 
-  details.forEach((targetDetail) => {
-    targetDetail.addEventListener('toggle', (event) => {
-      // Only scroll if the container was just opened
-      if (targetDetail.open) {
-        // Scroll to the top of the clicked question
-        targetDetail.scrollIntoView({
-          behavior: 'smooth', // Smooth animation
-          block: 'start'      // Align the top of the element to the top of the screen
+  faqItems.forEach((selectedItem) => {
+    selectedItem.addEventListener('toggle', (event) => {
+      // Only run if the item was just OPENED
+      if (selectedItem.open) {
+        
+        // 1. Optional: Close all other open questions
+        faqItems.forEach((otherItem) => {
+          if (otherItem !== selectedItem) {
+            otherItem.removeAttribute('open');
+          }
         });
+
+        // 2. Wait 100ms for the answer to "appear" then scroll
+        setTimeout(() => {
+          selectedItem.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }, 100);
       }
     });
   });
