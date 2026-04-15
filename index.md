@@ -7,6 +7,12 @@ nav_order: 1
 
 <style>
   .main { max-width: 100% !important; } 
+  .side-by-side img {
+    width: 35%;
+    max-height: 1000px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
 </style>
 
 <img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
