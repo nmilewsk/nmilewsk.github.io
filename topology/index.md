@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 ---
 
-# Introduction to Topology
+# <u>Introduction to Topology</u>
 
 ## Please note this is still a work in progress!!
 
