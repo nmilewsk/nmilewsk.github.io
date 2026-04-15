@@ -22,11 +22,11 @@ Metric spaces, and their associated metrics, have been around you your whole lif
 >
 > where $d$ satisfies the following conditions $\\forall x,y,z \\in X$:
 >
-> $\\tag{M1} \\label{NN}$ (Non-negativity) $d(x,y) \\geq 0$, and $d(x,y) = 0 \\iff x = y.$
+> <span id="M1">1.</span> (Non-negativity) $d(x,y) \\geq 0$, and $d(x,y) = 0 \\iff x = y.$
 > 
-> $\\tag{M2} \\label{S}$ (Symmetric) $d(x,y) = d(y,x).$
+> <span id="M2">2.</span> (Symmetric) $d(x,y) = d(y,x).$
 > 
-> $\\tag{M3} \\label{TE}$ (Triangle Inequality) $d(x,z) \\leq d(x,y) + d(y,z).$
+> <span id="M3">3.</span> (Triangle Inequality) $d(x,z) \\leq d(x,y) + d(y,z).$
 
 When you think about measuring distance between two objects intuitively, these seem very straightforward. Distance does not care about direction, so it is always positive. The distance from a to b is the same as from b to a, and the shortest path between two points is a straight line. We now move to show a couple of metrics and proving that they, with an associated set, form a metric space.
 
@@ -54,7 +54,7 @@ When you think about measuring distance between two objects intuitively, these s
 
 
 {: .proof }
-> $\\ref{NN}$ Non-negativity:
+> [Non-negativity](#M1):
 > 
 > $ \\forall{x,y} \\in \\mathbb{R}^2$:
 >
@@ -65,7 +65,7 @@ When you think about measuring distance between two objects intuitively, these s
 > If $d(x,y) = 0$, then $(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2 = 0$
 > $ \\implies x_{1}-y_{1} = 0 = x_{2}-y_{2} \\implies (x_{1},x_{2}) = (y_{1},y_{2}) \\implies x = y$
 >
-> $\\ref{S}$ Symmetric:
+> [Symmetric](#M2):
 > 
 > $ \\forall{x,y} \\in \\mathbb{R}^2$:
 >
@@ -77,7 +77,7 @@ When you think about measuring distance between two objects intuitively, these s
 > 
 > $= \\sqrt{(y_{1}-x_{1})^2 + (y_{2}-x_{2})^2} = d(y,x)$
 > 
-> $\\ref{TE}$ Triangle Inequality:
+> [Triangle Inequality](#M3):
 > 
 > $\\forall{(x_{1}, x_{2}), (y_{1}, y_{2}), (z_{1}, z_{2})} \\in \\mathbb{R}^2$:
 >
@@ -91,7 +91,7 @@ When you think about measuring distance between two objects intuitively, these s
 > 
 > $\\implies a_{1}^2 + a_{2}^2 + b_{1}^2 + b_{2}^2 + 2(a_{1}b_{1} + a_{2}b_{2}) \\leq a_{1}^2 + a_{2}^2 + b_{1}^2 + b_{2}^2 + 2\\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)}.$
 > 
-> After cancelling, we just need to show $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)}.$ $\\tag{1} \\label{short}$
+> After cancelling, we just need to show $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)}.$  <span id="metric1"><strong>(1)</strong></span>
 > 
 > Because square root is a non-negative function, we can say $(a_{1}b_{2}-a_{2}b_{1})^2 \\geq 0$
 > 
@@ -103,7 +103,7 @@ When you think about measuring distance between two objects intuitively, these s
 > $(a_{1}^2+a_{2}^2)(b_{1}^2+b_{2}^2) \\geq a_{1}^2b_{1}^2+a_{2}^2b_{2}^2 + 2a_{1}a_{2}b_{1}b_{2} = (a_{1}b_{1} + a_{2}b_{2})^2.$
 > 
 > Finally, if we take the square root of both sides (since both are non-negative), we get that:
->  $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)} \\implies d(x,z) \\leq d(x,y) + d(y,z)$ by $\\ref{short}$.
+>  $a_{1}b_{1} + a_{2}b_{2} \\leq \\sqrt{(a_{1}^2 + a_{2}^2)(b_{1}^2 + b_{2}^2)} \\implies d(x,z) \\leq d(x,y) + d(y,z)$ by [(1)](#metric1).
 > 
 > Thus, $d$ is a metric, and by definition $(\\mathbb{R}^2, d)$ is a metric space. $\\square$
 
@@ -128,11 +128,11 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > then $d(x,y)$ is a metric and $(\\mathbb{R},d)$ is a metric space.
 
 {: .proof }
-> $\\ref{NN}$ Non-negativity:
+> [Non-negativity](#M1):
 >
 > By construction,  $\\forall{x,y} \\in \\mathbb{R}, d(x,y) \\geq 0$ and $d(x,y) = 0 \\iff x=y$
 >
-> $\\ref{S}$ Symmetric:
+> [Symmetric](#M2):
 >
 >$\\forall{x,y} \\in \\mathbb{R}$:
 >
@@ -140,7 +140,7 @@ The Euclidean Metric is fairly straightforward and indeed should make a lot of s
 > 
 > If $x \\neq y$, then $d(x,y) = 1$ and $d(y,x) = 1 \\implies d(x,y) = d(y,x)$
 >
-> $\\ref{TE}$ Triangle Inequality:
+> [Triangle Inequality](#M3):
 > 
 > $\\forall{x,y,z} \\in \\mathbb{R}$:
 > 
