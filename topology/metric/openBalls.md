@@ -1,11 +1,11 @@
 ---
-title: Open Balls
+title: Open Balls/Sets
 layout: default
 parent: "Chapter 1: Metric Spaces"
 nav_order: 2
 ---
 
-# Open Balls
+# <u>Open Balls/Sets</u>
 
 {: .definition }
 > Let $(X,d)$ be a metric space.

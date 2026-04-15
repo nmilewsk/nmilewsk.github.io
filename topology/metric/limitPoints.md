@@ -5,6 +5,6 @@ parent: "Chapter 1: Metric Spaces"
 nav_order: 3
 ---
 
-# Limit Points and More
+# <u>Limit Points and More</u>
 
 Closure, boundary, accumulation points, limit points, etc.

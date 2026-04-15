@@ -5,7 +5,7 @@ parent: "Chapter 1: Metric Spaces"
 nav_order: 1
 ---
 
-# What is a Metric Space?
+# <u>What is a Metric Space?</u>
 
 Metric spaces, and their associated metrics, have been around you your whole life whether you were aware of it or not. A metric space, very simply, is a set where you can quantify the distance between any two elements using an associated distance function, better known as a metric. Have you ever used $\\vert x-y \\vert$ to measure the difference between two numbers? How about using the distance formula $d=\\sqrt{(x_{2}-x_{1})^2 + (y_{2}-y_{1})^2}$ to find the distance between two points on the Cartesian plane? Well if so, then you have utilized metrics!
 
