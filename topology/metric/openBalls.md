@@ -80,7 +80,7 @@ Please make a strong note for later that, for a metric space $(X,d)$, $X$ itself
 >
 > We now have:
 >
-> $\\vert y^2 - x^2 \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert) \\leq \\epsilon 
+> $\\vert y^2 - x^2 \\vert \\leq \\vert y-x \\vert (\\vert y-x \\vert + 2 \\vert x \\vert) < r(r + 2 \\vert x \\vert) < r \\cdot 2(1 + \\vert x \\vert) \\leq \\epsilon$
 >
 > $\\implies \\vert y^2 - x^2 \\vert < \\epsilon \\implies -\\epsilon < \\vert y^2 - x^2 \\vert < \\epsilon$. 
 >
