@@ -61,8 +61,10 @@ faqs:
 </div>
 
 <br>
+
 {: .text-center }
 # FAQ
+
 <br>
 
 {% for item in page.faqs %}
