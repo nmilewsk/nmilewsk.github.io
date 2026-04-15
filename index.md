@@ -15,7 +15,10 @@ nav_order: 1
   }
 </style>
 
+
+{: .text-right }
 <img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
+
 
 <div class="side-by-side">
     <div class="text-content">
