@@ -5,7 +5,7 @@ parent: Preface
 nav_order: 1
 ---
 
-Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please note that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
+Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please be aware that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
 
 ## <u>Logic</u>
 
@@ -30,26 +30,26 @@ $$
 Two or more statements can be linked to form a single joined statement known as a compound statements. The truth of a compound statement relies on the truth values of the statements involved. Think about the following two statements: 
 
 $$
-\text{''It is raining."}
+\text{It is raining.}
 $$
 
 $$
-\text{''It is sunny."}
+\text{It is sunny.}
 $$
 
 Given these two statements, we can create two distinct compound statements: 
 
 {: .text-center }
 $$
-\text{''It is raining and it is sunny."}
+\text{It is raining and it is sunny.}
 $$ <span id="and"><strong>(1)</strong></span>
 
 {: .text-center }
 $$
-\text{''It is raining or it is sunny."}
+\text{It is raining or it is sunny.}
 $$ <span id="or"><strong>(2)</strong></span>
 
-If we let $P=\\text{it is raining}$ and $Q=\\text{it is sunny}$, we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR. We can then represent the truth of [(1)](#and) and [(2)](#or) using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
+If we let $P=$it is raining and $Q=$ it is sunny, we can write [(1)](#and) as $P \\wedge Q$ and [(2)](#or) as $P \\lor Q$ where $\\wedge$ is a symbol for a logical AND and $\\lor$ is a symbol for logical OR[^1]. We can then represent the truth of [(1)](#and) and [(2)](#or) using a truth table, which is a mathematical tool used to show the value of some logical statement/expression:
 
 | $P$ | $Q$ | $P \\wedge Q$ | $P \\lor Q$ |
 |:----|:----|:--------------|:------------|
@@ -58,11 +58,11 @@ If we let $P=\\text{it is raining}$ and $Q=\\text{it is sunny}$, we can write [(
 |F    |T    |F              |T            |
 |F    |F    |F              |F            |
 
-Where T/F represent the truth of the statement. Logical OR, as can be seen above, requires only one of the statements to be true for the compound statement to be true. Meanwhile, logical AND requires every statement to be true for the compound statement to be true. Note that compound statements are statements themselves and can be used to form even longer/detailed compound statements. Quite often, the truth of a mathematical statement is linked to some other statement in some way. Let's assume that we have two statements, $P$ and $Q$, where the truth $P$ tells us the truth of $Q$, then we can form a conditional statement.
+Where T/F represent the truth of the statement. Logical OR, as can be seen above, requires at least one of the statements to be true for the compound statement to be true. Meanwhile, logical AND requires every statement to be true for the compound statement to be true. Compound statements are statements themselves and can be used to form even longer/detailed compound statements. Quite often, the truth of a mathematical statement is linked to some other statement in some way. Let's assume that we have two statements, $P$ and $Q$, where the truth $P$ tells us the truth of $Q$, then we can form a conditional statement.
 
 | A <u><strong>conditional statement</strong></u> is a statement in which the truth of a <strong>hypothesis</strong> ($P$) implies the truth of a <strong>conclusion</strong> ($Q$).|
 
-These statements are better known as "if-then" statements and are everywhere in the world of mathematics. So given a hypothesis $P$ and a conclusion$Q$, we could say "if $P$, then $Q$" or write $P \\implies Q$. Here is a truth table for a simple conditional statement:
+These statements are better known as "if-then" statements and are everywhere in the world of mathematics. So given a hypothesis $P$ and a conclusion $Q$, we could say "if $P$, then $Q$" or write $P \\implies Q$. Here is a truth table for a simple conditional statement:
 
 | $P$ | $Q$ | $P \\implies Q$ |
 |:----|:----|:----------------|
@@ -71,17 +71,27 @@ These statements are better known as "if-then" statements and are everywhere in 
 |F    |T    |T                |
 |F    |F    |T                |
 
-This truth table might not be as straight forward as the logical AND/OR table, but first we focus on when $P \\implies Q$ should be false. $P \\implies Q$ tells us that whenever $P$ is true, $Q$ must be as well. For this to be false, we must have $P$ as true and $Q$ as false, which is where $P \\implies Q$ is listed as false. Note that $P \\implies Q$ does <u>NOT</u> tell us about the truth of $Q$ when $P$ is false. Consider, for example, the following conditional:
+This truth table might not be as straight forward as the logical AND/OR table, but first we focus on when $P \\implies Q$ should be false. $P \\implies Q$ tells us that whenever $P$ is true, $Q$ must be as well. For this to be false, we must have $P$ as true and $Q$ as false, which is where $P \\implies Q$ is listed as false. $P \\implies Q$ does <u>NOT</u> tell us about the truth of $Q$ when $P$ is false. Consider, for example, the following conditional:
 
 {: .text-center }
 $$
 \text{If it is raining, the lawn will be wet.}
 $$ <span id="->"><strong>(3)</strong></span>
 
-Indeed whenever it rains, the lawn will be wet. But what if it isn't raining, but you still watered your grass? Given this truth of our hypothesis and conclusion (i.e. $P$ is false and $Q$ is true) you say that [(3)](#->) is false? Well, for it to be false, we would need to show that it rained and the lawn was NOT wet. Since this scenario does not prove that it is false, we say that [(3)](#->) is true in this case. That seems a little confusing, because we aren't exactly confirming the conditional. However, remember that statements exist on a binary: they must either be true or false. Since [(3)](#->) cannot be false, it must be true. What if we had two statements, $P$ and $Q$, where the truth of $P$ implies the truth of $Q$ <u>AND</U> the truth of $Q$ implies the truth of $P$?
+Indeed whenever it rains, the lawn will be wet. But what if it isn't raining, but you still watered your grass? Given this truth of our hypothesis and conclusion (i.e. $P$ is false and $Q$ is true) you say that [(3)](#->) is false? Well, for it to be false, we would need to show that it rained and the lawn was NOT wet. Since this scenario does not prove that it is false, we say that [(3)](#->) is true in this case. That seems a little confusing, because we aren't exactly confirming the conditional. However, remember that statements exist on a binary: they must either be true or false. Since [(3)](#->) cannot be false, it must be true. Now what if we had two statements, $P$ and $Q$, where the truth of $P$ implies the truth of $Q$ <u>AND</U> the truth of $Q$ implies the truth of $P$?
 
 | A <u><strong>biconditional statement</strong></u> is a statement in which the truth of a <strong>hypothesis</strong> ($P$) implies the truth of a <strong>conclusion</strong> ($Q$) and vice versa. |
 
+Given some P and Q, the biconditional statement would read "P if and only if Q" or be written as $P \\iff Q$. Since $P$ and $Q$ act as both hypotheses and conclusions, $P \\iff Q = Q \\iff P$  Here is a truth table for a biconditional statement (with $P \\implies Q$ and $Q \\implies P$ added):
+
+| $P$ | $Q$ | $P \\implies Q$ | $Q \\implies P$ | $P \\iff Q$ |
+|:----|:----|:----------------|:----------------|:------------|
+|T    |T    |T                |T                |T            |
+|T    |F    |F                |T                |F            |
+|F    |T    |T                |F                |F            |
+|F    |F    |T                |T                |T            |
+
+Note that if either $P$ or $Q$ is true, then, in order for $P \\iff Q$ to be true, the other must also be true. To make sense of this, we again first focus on when $P \\iff Q$ would be false.
 
 ## <u>Language</u>
 
@@ -123,3 +133,5 @@ When stating some property that characterizes elements of some set $A$, it might
   - If we let $P(x)$ hold when $x$ is odd, then we get the following:
     - $\\forall x P(x)$ is NOT true, so its negation is true: $\\exists x \\neg P(x).$
     - $\\exists x P(x)$ is true, so its negation is NOT true: $\\not \\exists x P(x).$
+
+[^1]: Note that logical OR can be either exclusive (ONLY one can be true) or inclusive (AT LEAST one can be true), we will generally be using inclusive.
