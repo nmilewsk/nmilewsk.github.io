@@ -457,6 +457,7 @@ blockquote {
 
 .faq-container {
   margin-bottom: 10px;
+  scroll-margin-top: 100px;
 }
 
 .faq-button {
@@ -483,8 +484,3 @@ blockquote {
   color: #FFFFFF;
   line-height: 1.6;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-

@@ -60,11 +60,11 @@ faqs:
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
 
-
 <br>
 {: .text-center }
 # FAQ
 <br>
+
 {% for item in page.faqs %}
 <details class="faq-container">
   <summary class="faq-button">
@@ -75,33 +75,3 @@ faqs:
   </div>
 </details>
 {% endfor %}
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const faqItems = document.querySelectorAll('details.faq-container');
-
-  faqItems.forEach((item) => {
-    item.addEventListener('toggle', function() {
-      // Only scroll if the item is now open
-      if (this.open) {
-        // 1. Close all other open questions (optional accordion effect)
-        faqItems.forEach((otherItem) => {
-          if (otherItem !== this) {
-            otherItem.removeAttribute('open');
-          }
-        });
-
-        // 2. Scroll to the clicked item
-        // A slight delay (200ms) helps the browser calculate the new page height
-        setTimeout(() => {
-          this.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }, 200);
-      }
-    });
-  });
-});
-</script>
-
