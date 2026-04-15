@@ -1,5 +1,5 @@
 ---
-title: Private Tutoring
+title: Tutoring
 layout: default
 has_toc: false
 nav_order: 4
@@ -60,8 +60,8 @@ faqs:
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
 
-## FAQ
-
+# FAQ
+<br>
 {% for item in page.faqs %}
 <details class="faq-container">
   <summary class="faq-button">
