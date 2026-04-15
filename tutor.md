@@ -70,3 +70,21 @@ faqs:
   </div>
 </details>
 {% endfor %}
+
+<script>
+  // Select all FAQ containers
+  const details = document.querySelectorAll('details.faq-container');
+
+  details.forEach((targetDetail) => {
+    targetDetail.addEventListener('toggle', (event) => {
+      // Only scroll if the container was just opened
+      if (targetDetail.open) {
+        // Scroll to the top of the clicked question
+        targetDetail.scrollIntoView({
+          behavior: 'smooth', // Smooth animation
+          block: 'start'      // Align the top of the element to the top of the screen
+        });
+      }
+    });
+  });
+</script>
