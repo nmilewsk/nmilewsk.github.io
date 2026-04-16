@@ -65,7 +65,7 @@ If we let $P=$ "it is raining" and $Q=$ "it is sunny", we can write [(1)](#and) 
 |F    |T    |F              |T            |
 |F    |F    |F              |F            |
 
-Where T/F represent the truth of the statement. Logical OR, as can be seen above, requires at least one of the statements to be true for the compound statement to be true. Meanwhile, logical AND requires every statement to be true for the compound statement to be true. Compound statements are statements themselves and can be used to form even longer/detailed compound statements. Quite often, the truth of a mathematical statement is linked to some other statement in some way. Let's assume that we have two statements, $P$ and $Q$, where the truth $P$ tells us the truth of $Q$, then we can form a conditional statement.
+Logical OR, as can be seen above, requires at least one of the statements to be true for the compound statement to be true. Meanwhile, logical AND requires every statement to be true for the compound statement to be true. Compound statements are statements themselves and can be used to form even longer/detailed compound statements. Quite often, the truth of a mathematical statement is linked to some other statement in some way. Let's assume that we have two statements, $P$ and $Q$, where the truth $P$ tells us the truth of $Q$, then we can form a conditional statement.
 
 | A <u><strong>conditional statement</strong></u> is a statement in which the truth of a <strong>hypothesis</strong> ($P$) implies the truth of a <strong>conclusion</strong> ($Q$).|
 
@@ -82,7 +82,7 @@ This truth table might not be as straight forward as the logical AND/OR table, b
 
 {: .text-center }
 $$
-\text{If it is raining, the lawn will be wet.}
+\text{If it is raining, then the lawn will be wet.}
 $$ <span id="->"><strong>(3)</strong></span>
 
 Indeed whenever it rains, the lawn will be wet. But what if it isn't raining, but you still watered your grass? Given this truth of our hypothesis and conclusion (i.e. $P$ is false and $Q$ is true) you say that [(3)](#->) is false? Well, for it to be false, we would need to show that it rained and the lawn was NOT wet. Since this scenario does not prove that it is false, we say that [(3)](#->) is true in this case. That seems a little confusing, because we aren't exactly confirming the conditional. However, remember that statements exist on a binary: they must either be true or false. Since [(3)](#->) cannot be false, it must be true. Now what if we had two statements, $P$ and $Q$, where the truth of $P$ implies the truth of $Q$ <u>AND</U> the truth of $Q$ implies the truth of $P$?
@@ -102,11 +102,42 @@ Note that if either $P$ or $Q$ is true, then, in order for $P \\iff Q$ to be tru
 
 Some statements can be thought of as functions, where you have some input and the output is the truth value. Consider the following statement as an example:
 
+{: .text-center }
 $$
 x \text{ is an odd number.}
+$$ <span id="odd"><strong>(4)</strong></span>
+
+This sort of statement is known as a predicate, where the input, $x$, is known as a free variable. In this case, the statement is true whenever we input an odd number. Given a predicate $P(x)$, we can form statements where their truth depends on the quantity of inputs such that the predicate is true. These statements are formed using quantifiers.
+
+| A <u><strong>universal quantifier</u></strong> is a quantifier that means "for all" and is denoted with $\\forall$. An <u><strong> existential quantifier </u></strong> is a quantifier that means "there exists" and is denoted with $\\exists$.
+
+Using quantifiers and [(4)](#odd) as our P(x), we can form the statements $\\forall x(P(x))$ and $\\exists x(P(x))$ which read as "for every $x$, $x$ is an odd number" and "there exists $x$ such that $x$ is an odd number", respectively. We can combine everything that we've covered so far to make some pretty detailed statements. Here are some examples:
+
+$$
+\forall x(P(x) \wedge Q(x))
 $$
 
-This sort of statement is known as a predicate, where the input, $x$, is known as a free variable. In this case, the statement is true whenever we input an odd number. Given a predicate $P(x)$, we can quantify either whether the statement is always true or whether the statement is ever true
+$$
+\exists x((P_1(x) \lor P_2(x)) \iff \neg Q(x))
+$$
+
+So far we've learned how to form and read statements logically, but how do we go about proving them? When you are given a statement, you are told to either prove or disprove it. There are generally three ways to go about this: direct, contradiction, or contrapositive. For any route, we first deal with the quantifier. A universally quantified statement will be of the form $\\forall x(P(x))$ and we want to assume $x$ is arbitrary and continue from there. An existentially quantified statement will be of the form $\\exists x(P(x))$, in which case you want to show that some $x$ makes $P(x)$ true.
+
+<u><strong>Direct:</u></strong> We want to show that $P(x)$ is true. The direct route consists of no logical equivalences and working with what we're given. If $P(x)$ is NOT conditional at all, then it suffices to show that $P(x)$ is true for any arbitrary $x$, or show that $P(x)$ must be true for at least one $x$. If $P(x)$ is just conditional (i.e. $P(x) = (P \\implies Q)$), then we assume that the hypothesis holds and show that Q must also hold. If $P(x)$ is biconditional, then we prove $P \\implies Q$ and $Q \\implies P$. When you look back at the truth tables, these make sense as these are all cases where the output was true.
+
+<u><strong>Contrapositive:</u></strong> Note proof by contrapositive requires $P(x)$ to be a conditional statement. Before we dive into the logic, consider the following truth table:
+
+| $P$ | $Q$ | $\\neg P$ | $\\neg Q$ | $P \\implies Q$ | $Q \\implies P$ | $\\neg P \\implies \\neg Q$ | $\\neg Q \\implies \\neg P$ |
+|:----|:----|:----------|:----------|:----------------|:----------------|:----------------------------|:----------------------------|
+|T    |T    |F          |F          |T                |T                |T                            |T                            |
+|T    |F    |F          |T          |F                |T                |T                            |F                            |
+|F    |T    |T          |F          |T                |F                |F                            |T                            |
+|F    |F    |T          |T          |T                |T                |T                            |T                            |
+
+Note that $P \\implies Q$ and $\\neg Q \\implies \\neg P$ have the same truth values. This means that these two statements are logically equivalent. Furthermore, if two statements $P$ and $Q$ are logically equivalent, then $P$ is true if and only if $Q$ is true. Thus, to prove by contrapositive, we show that $\\neg Q \\implies \\neg P$ is true. This might seem confusing at first, but consider [(3)](#->) above. $\\neg Q \\implies \\neg P$ would be saying "if the lawn is not wet, then it did not rain" and this makes perfect sense logically. 
+
+<u><strong>Contradiction:</u></strong>
+
 
 ## <u>Language</u>
 
