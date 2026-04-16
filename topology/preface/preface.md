@@ -27,7 +27,7 @@ $$
 \sqrt{2} \text{ is irrational.}
 $$
 
-While all of the above are true statements, what if we had a false statement, but wanted to represent it as true? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\negP$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
+While all of the above are true statements, what if we had a false statement, but wanted to represent it as true? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
 
 | $P$ | $\\neg P$ |
 |:----|:----------|
