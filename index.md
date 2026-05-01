@@ -19,6 +19,7 @@ nav_order: 1
 [Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-blue }
 [Topology](https://nmilewsk.github.io/topology/){: .btn .btn-blue }
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-blue }
+
 {: .text-center}
 <img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
 
