@@ -15,13 +15,13 @@ nav_order: 1
   }
 </style>
 
-
-{: .text-right}
-<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
 {: .text-left}
 [Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-blue }
 [Topology](https://nmilewsk.github.io/topology/){: .btn .btn-blue }
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-blue }
+{: .text-right}
+<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
+
 
 <div class="side-by-side">
     <div class="text-content">
