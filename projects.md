@@ -5,8 +5,8 @@ has_toc: false
 nav_order: 3
 ---
 
-{: .text-center}
-<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="300">
+{: .text-left}
+<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="400">
 
 ### My relevant projects/research:
 
