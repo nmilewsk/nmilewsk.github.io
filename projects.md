@@ -12,4 +12,4 @@ nav_order: 3
 - [Topology text](/topology/)
     - An Intro to Topology webbook that I am working on.
 - [Chess Bot](https://github.com/nmilewsk/chessBot)
-    - An in progress chess bot I am making.
+    - An in-progress chess bot that I am making using only ten 64bit integers to record the chessboard, making the bot's predictions computationally light.
