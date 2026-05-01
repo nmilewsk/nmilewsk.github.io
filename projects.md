@@ -5,6 +5,9 @@ has_toc: false
 nav_order: 3
 ---
 
+{: .text-center}
+<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="500">
+
 ### My relevant projects/research:
 
 - [Undergraduate research on wave dynamics](/assets/pdfs/Three_Wave_Interaction_and_Dynamic_Wave_Turbulence.pdf)
