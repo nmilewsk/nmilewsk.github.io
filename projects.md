@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 {: .text-left}
-<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="400">
+<img src="{{ site.baseurl }}/assets/images/torusklein.png" alt="homeomorphism_fun" width="350">
 
 ### My relevant projects/research:
 
