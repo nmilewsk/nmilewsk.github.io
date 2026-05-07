@@ -23,7 +23,7 @@ nav_order: 1
 <div class="side-by-side">
     <div class="text-content">
         <div class ="content-card">
-            <p>I recently graduated from the University of Michigan's pure mathematics program with a minor in computer science. During my time there, I was invited to participate in research through the Lab of Geometry, an application based undergraduate research program. Along the way, I have been privately tutoring students in, mainly, mathematics of all sorts. My mission is to improve access to mathematical education. Whether that be through equitable resources, content that is more approachable, or involved applications for the students. I have a saying: "anyone can do math.". It is my passion to help others see the truth in this saying. This website serves as a hub for that, being home to projects/research, tutoring, and more. </p>
+            <p>I recently graduated from the University of Michigan Ann Arbor with a degree in pure mathematics and with a minor in computer science. During my time there, I was invited to participate in research through the Lab of Geometry, an application based undergraduate research program. Along the way, I have been privately tutoring students in, mainly, mathematics of all sorts. My mission is to improve access to mathematical education. Whether that be through equitable resources, content that is more approachable, or involved applications for the students. I have a saying: "anyone can do math.". It is my passion to help others see the truth in this saying. This website serves as a hub for that, being home to projects/research, tutoring, and more. </p>
             <div class="button-row">
             </div>
         </div>
