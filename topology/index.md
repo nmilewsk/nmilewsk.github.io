@@ -1,5 +1,5 @@
 ---
-title: Topology
+title: "Intro to Topology"
 layout: default
 nav_order: 2
 has_children: true

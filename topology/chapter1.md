@@ -1,7 +1,7 @@
 ---
 title: "Chapter 1: Metric Spaces"
 layout: default
-parent: Topology
+parent: "Intro to Topology"
 nav_order: 2
 has_children: true
 ---

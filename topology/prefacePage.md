@@ -1,7 +1,7 @@
 ---
 title: Preface
 layout: default
-parent: Topology
+parent: Intro to Topology
 nav_order: 1
 has_children: true
 ---
