@@ -58,10 +58,7 @@ faqs:
       </div>
     </form>
   </div>
-  <div>
     <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
-    <br>
-  </div>
 </div>
 
 <iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York" style="border: 0" width= "800" height="600" frameborder="0" scrolling="no">
