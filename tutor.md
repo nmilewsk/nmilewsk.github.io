@@ -63,9 +63,12 @@ faqs:
 
 {: .text-center }
 # Availability
-{: .text-center }
-<iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York" style="border: 0; display: block; margin: auto;" width= "50%" height="600" frameborder="0" scrolling="no">
-</iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    frameborder="0" scrolling="no">
+  </iframe>
+</div>
 
 
 {: .text-center }
