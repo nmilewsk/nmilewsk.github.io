@@ -27,7 +27,7 @@ faqs:
 <div class="side-by-side">
   <div class="text-content">
     <div class ="content-card">
-      <p> I have vast experience working both in education and in the world of mathematics, having tutored a number of students in fields ranging from grade school math up to differential equations and beyond. I aim to improve not just grades but the understanding of the content and its underlying logic. I always adapt my lessons based on the needs of my students. If you have any inquiries/questions, please fill out the form below to reach out to me! </p>
+      <p> I have vast experience working both in education and in the world of mathematics, having tutored a number of students in fields ranging from grade school math up to differential equations and beyond. I aim to improve not just grades but the understanding of the content and its underlying logic. I always adapt my lessons based on the needs of my students. If you have any inquiries/questions, please fill out the form below to reach out to me! My current sessions are listed on the calendar below, so I am free whenver I do not have a session scheduled! </p>
     </div>
     <br>
     <form
