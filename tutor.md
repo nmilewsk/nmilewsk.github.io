@@ -61,10 +61,11 @@ faqs:
   <div>
     <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
     <br>
-    <iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York" style="border: 0" width= "100%" height="300" frameborder="0" scrolling="no">
-    </iframe>
   </div>
 </div>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York" style="border: 0" width= "100%" height="300" frameborder="0" scrolling="no">
+</iframe>
 
 <br>
 
