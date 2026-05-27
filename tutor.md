@@ -23,6 +23,7 @@ faqs:
   .main { max-width: 100% !important; } 
 </style>
 
+
 <div class="side-by-side">
   <div class="text-content">
     <div class ="content-card">
@@ -58,6 +59,9 @@ faqs:
     </form>
   </div>
   <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
+  <br>
+  <iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+  </iframe>
 </div>
 
 <br>
