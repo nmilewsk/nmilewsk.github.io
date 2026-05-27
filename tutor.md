@@ -61,15 +61,12 @@ faqs:
     <img src="{{ site.baseurl }}/assets/images/posterPresentation.jpeg" alt="poster_presentation">
 </div>
 
-<br>
-
 {: .text-center }
 # Availability
 {: .text-center }
 <iframe src="https://calendar.google.com/calendar/embed?src=nmilewsk%40umich.edu&ctz=America%2FNew_York" style="border: 0; display: block; margin: auto;" width= "50%" height="600" frameborder="0" scrolling="no">
 </iframe>
 
-<br>
 
 {: .text-center }
 # FAQ
