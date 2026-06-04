@@ -10,7 +10,7 @@ nav_order: 3
 
 ### My relevant projects/research:
 
-#### (Please note that school projects have been excluded, but can be provided if inquired about)
+#### (Please note that school projects have been excluded, but can be provided if interest exists)
 
 - [Undergraduate research on wave dynamics](/assets/pdfs/Three_Wave_Interaction_and_Dynamic_Wave_Turbulence.pdf)
     - (not included is the manim animation created for live presentation to demonstrate system cascade)
