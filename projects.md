@@ -18,3 +18,4 @@ nav_order: 3
     - An Intro to Topology webbook currently in progress.
 - [Chess Bot](https://github.com/nmilewsk/chessBot)
     - An in-progress chess bot.
+- Private Tutoring: [Sample of tutoring content created](https://docs.google.com/presentation/d/1sMqVNU5FlwbCPzULyYQ4zKyjUKDYboSRHPhgtTH9-DY/edit?usp=sharing)
