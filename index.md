@@ -16,7 +16,9 @@ nav_order: 1
 </style>
 
 {: .text-left}
-[Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-blue }
+[Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-blue {
+  color: #fff; background-color: #5ea1fb; background-image: linear-gradient(#5ea1fb, #2448a7);
+  }}
 [Intro to Topology](https://nmilewsk.github.io/topology/){: .btn .btn-blue }
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-blue }
 
