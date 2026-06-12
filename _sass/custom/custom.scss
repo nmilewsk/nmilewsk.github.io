@@ -495,10 +495,13 @@ blockquote {
 
 /* fixes button color */
 
-.btn-custom {
+.btn-blue_custom {
+  border-radius: 50px;
+}
+
+.btn-blue_custom {
   color: #fff !important;
   border-radius: 50px;
   background-color: #5ea1fb !important;
-  background-image: #5ea1fb !important;
-  //background-image: linear-gradient(#5ea1fb, #27262b) !important;
+  background-image: linear-gradient(#5ea1fb, #27262b) !important;
 }
