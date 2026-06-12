@@ -5,8 +5,6 @@ has_toc: false
 nav_order: 1
 ---
 
-
-{: .text-left}
 [Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom }
 [Intro to Topology](https://nmilewsk.github.io/topology/){: .btn .btn-custom }
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
