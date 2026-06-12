@@ -1,12 +1,17 @@
 ---
-title: About Me
+title: Home
 layout: home
 has_toc: false
 nav_order: 1
 ---
 
-[Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom }
+# <u>Tutoring Services</u>
+
+{: text-center }
+[Book a Session](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom } [Sample](https://docs.google.com/presentation/d/1sMqVNU5FlwbCPzULyYQ4zKyjUKDYboSRHPhgtTH9-DY/edit?usp=sharing){: .btn }
+
 [Intro to Topology](https://nmilewsk.github.io/topology/){: .btn .btn-custom }
+
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
 
 <div class ="content-card">
