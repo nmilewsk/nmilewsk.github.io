@@ -453,7 +453,7 @@ blockquote {
   font-size: 1.8rem;
 }
 
-/** question **/
+/** faq **/
 
 .faq-container {
   margin-bottom: 10px;
@@ -500,7 +500,7 @@ blockquote {
 }
 
 .btn:hover {
-  filter: brightness(70%);
+  background-color: var(--color-primary-active);
 }
 
 .btn-custom {
