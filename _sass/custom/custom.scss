@@ -497,6 +497,11 @@ blockquote {
 
 .btn {
   border-radius: 50px !important;
+  outline: 4px --color-primary !important;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-active);
 }
 
 .btn-custom:hover {
