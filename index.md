@@ -5,15 +5,6 @@ has_toc: false
 nav_order: 1
 ---
 
-<style>
-  .main { max-width: 100% !important; } 
-  .side-by-side img {
-    width: 40%;
-    max-height: 1000px;
-    flex-shrink: 0;
-    border-radius: 4px;
-  }
-</style>
 
 {: .text-left}
 [Tutoring](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom }
