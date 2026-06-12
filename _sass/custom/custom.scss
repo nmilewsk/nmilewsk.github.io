@@ -511,5 +511,6 @@ blockquote {
 }
 
 .btn-custom:hover {
-  background-color: var(--color-primary-active);
+  filter: brightness(70%);
+  //background-color: var(--color-primary-active);
 }
