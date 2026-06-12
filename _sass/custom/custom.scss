@@ -497,14 +497,10 @@ blockquote {
 
 .btn {
   border-radius: 50px !important;
-  border: 1px solid var(--color-primary) !important;
+  border: 1px solid var(--color-background) !important;
 }
 
 .btn:hover {
-  background-color: var(--color-primary-active);
-}
-
-.btn-custom:hover {
   background-color: var(--color-primary-active);
 }
 
@@ -512,4 +508,8 @@ blockquote {
   color: #fff !important;
   border-radius: 50px;
   background-color: #5ea1fb !important;
+}
+
+.btn-custom:hover {
+  background-color: var(--color-primary-active);
 }
