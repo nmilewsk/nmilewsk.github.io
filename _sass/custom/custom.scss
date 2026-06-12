@@ -506,11 +506,9 @@ blockquote {
 
 .btn-custom {
   color: #fff !important;
-  border-radius: 50px;
   background-color: #5ea1fb !important;
 }
 
 .btn-custom:hover {
-  filter: brightness(70%);
-  //background-color: var(--color-primary-active);
+  background-color: var(--color-primary-active) !important;
 }
