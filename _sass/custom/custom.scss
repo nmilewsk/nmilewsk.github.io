@@ -442,13 +442,26 @@ blockquote {
   box-sizing: border-box;
   background-color: rgba(94, 161, 251, 0.92);
   background-image: url('/assets/images/stockMath.jpg');
-  background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   border-radius: 8px;
   padding: 1rem;
   color: #ffffff;
   line-height: 1.8;
+}
+
+/** following two blend background image into content card **/
+.content-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(94, 161, 251, 0.92);
+  border-radius: 8px;
+}
+
+.content-card * {
+  position: relative;
+  z-index: 1;
 }
 
 .content-card h2 {
