@@ -46,7 +46,7 @@ When you think about measuring distance between two objects intuitively, these s
 > then $d(x,y)$ is a metric and $(\\mathbb{R}^2, d)$ is a metric space.
 
 
-> Note that this is referred to as the <u><strong>Euclidean Metric</strong></u> and can be generalized for $\\mathbb{R}^n$ by
+> Note that this is referred to as the <u><strong>Euclidean Metric</strong></u> and can be generalized for $\\mathbb{R}^n \\times \\mathbb{R}^n$ by
 > 
 > $$
 > d(x,y)=\sqrt{\sum_{i=1}^n (x_{i}-y_{i})^2}
