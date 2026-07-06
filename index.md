@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 
-<img src="{{ site.baseurl }}/assets/images/cute_math.jpg" alt="cute_math">
+
 
 
 {: .text-left}
@@ -14,12 +14,12 @@ nav_order: 1
 
 <div class ="side-by-side">  
   <div class ="text-content">
-    <img src="{{ site.baseurl }}/assets/images/cute_math.jpg" alt="cute_math">
+    <div class ="content-card">
+      <p> I offer tutoring services for all ages in topics such as...
+      </p>
+    </div>
   </div>
-  <div class ="content-card">
-    <p> I offer tutoring services for all ages in topics such as...
-    </p>
-  </div>
+  <img src="{{ site.baseurl }}/assets/images/cute_math.jpg" alt="cute_math">
 </div>
 
 {: .text-left}
