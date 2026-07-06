@@ -6,6 +6,9 @@ nav_order: 1
 ---
 
 
+<img src="{{ site.baseurl }}/assets/images/cute_math.jpg" alt="cute_math">
+
+
 {: .text-left}
 # <u>Tutoring Services</u>
 
