@@ -15,7 +15,7 @@ nav_order: 1
 <div class ="side-by-side">  
   <div class ="text-content">
     <div class ="content-card">
-      <p> I offer tutoring services for all ages in topics such as chemistry, physics, and genereally any math course (geometry, probability, statistics, algebra I & II, pre-calc, calculus, linear algebra, differential equations, analysis, etc.). Click below to either find out more about my services or view a sample of curated slides created to help my students.
+      <p> I offer tutoring services for all ages in topics such as chemistry, physics, and generally any math course (geometry, probability, statistics, algebra I & II, pre-calc, calculus, linear algebra, differential equations, analysis, etc.). Click below to either find out more about my services or view a sample of curated slides created to help my students.
       </p>
     </div>
   </div>
@@ -29,7 +29,10 @@ nav_order: 1
 # <u>Projects</u>
 
 {: .text-right}
-[My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
+<div class ="side-by-side">
+  <img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot">
+  [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
+</div>
 
 {: .text-left}
 # <u>About Me</u>
