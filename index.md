@@ -15,7 +15,7 @@ nav_order: 1
 <div class ="side-by-side">  
   <div class ="text-content">
     <div class ="content-card">
-      <p> I offer tutoring services for all ages in topics such as...
+      <p> I offer tutoring services for all ages in topics such as chemistry, physics, and genereally any math course (geometry, probability, statistics, algebra I & II, pre-calc, calculus, linear algebra, differential equations, analysis, etc.). Click below to either find out more about my services or view a sample of curated slides created to help my students.
       </p>
     </div>
   </div>
@@ -23,7 +23,7 @@ nav_order: 1
 </div>
 
 {: .text-left}
-[Book a Session](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom } [Sample](https://docs.google.com/presentation/d/1sMqVNU5FlwbCPzULyYQ4zKyjUKDYboSRHPhgtTH9-DY/edit?usp=sharing){: .btn }
+[More Info/Book a Session](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom } [Sample](https://docs.google.com/presentation/d/1sMqVNU5FlwbCPzULyYQ4zKyjUKDYboSRHPhgtTH9-DY/edit?usp=sharing){: .btn }
 
 {: .text-right}
 # <u>Projects</u>
