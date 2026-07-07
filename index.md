@@ -30,11 +30,8 @@ nav_order: 1
 
 {: .text-right}
 <div class ="side-by-side" markdown="1">
-  
-  <img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot">
-  
-  [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
-
+  <p><img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot"></p>
+  <p>[My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }</p>
 </div>
 
 {: .text-left}
