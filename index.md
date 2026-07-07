@@ -25,17 +25,14 @@ nav_order: 1
 {: .text-left}
 [More Info/Book a Session](https://nmilewsk.github.io/tutor.html){: .btn .btn-custom } [Sample](https://docs.google.com/presentation/d/1sMqVNU5FlwbCPzULyYQ4zKyjUKDYboSRHPhgtTH9-DY/edit?usp=sharing){: .btn }
 
-{: .text-right}
+
+{: .text-left}
 # <u>Projects</u>
 
-{: .text-right}
-<div class ="side-by-side" markdown="1">
-  <div class ="text-content">
-    <img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot">
-  </div>
-  <a href="https://nmilewsk.github.io/projects.html" class="btn btn-custom">My Projects</a>
-  <!-- [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom } -->
-</div>
+<img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot">
+
+[My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
+
 
 {: .text-left}
 # <u>About Me</u>
