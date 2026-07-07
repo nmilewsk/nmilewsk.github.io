@@ -29,8 +29,10 @@ nav_order: 1
 {: .text-center}
 # <u>Projects</u>
 
+{: .text-center}
 <img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot" width="50%">
 
+{: .text-center}
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
 
 
