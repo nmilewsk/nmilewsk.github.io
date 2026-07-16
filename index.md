@@ -5,10 +5,6 @@ has_toc: false
 nav_order: 1
 ---
 
-
-
-
-
 {: .text-left}
 # <u>Tutoring Services</u>
 
