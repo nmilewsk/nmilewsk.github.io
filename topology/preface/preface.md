@@ -5,13 +5,14 @@ parent: Preface
 nav_order: 1
 ---
 
-Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please be aware that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
+Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please be aware that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises. 
 
+<br><br>
 
 {: .text-center}
 # <u>Logic</u>
 
-
+<br><br>
 
 Mathematics builds upon itself by making logical expressions and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
@@ -31,10 +32,7 @@ $$
 \sqrt{2} \text{ is irrational.}
 $$
 
-
-
-
-
+<br>
 
 While all of the above are true statements, what if we had a false statement, but wanted to represent it as true? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
 
