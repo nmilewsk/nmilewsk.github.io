@@ -196,4 +196,4 @@ When stating some property that characterizes elements of some set $A$, it might
     - $\\forall x P(x)$ is NOT true, so its negation is true: $\\exists x \\neg P(x).$
     - $\\exists x P(x)$ is true, so its negation is NOT true: $\\not \\exists x P(x).$
 
-[^a]: Note that logical OR can be either exclusive (ONLY one can be true) or inclusive (AT LEAST one can be true), we will generally be using inclusive.
+[^a]: Note that logical OR can be either exclusive (ONLY one can be true) or inclusive (AT LEAST one can be true), we will almost always be using inclusive.
