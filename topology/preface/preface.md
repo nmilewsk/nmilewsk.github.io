@@ -32,13 +32,25 @@ $$
 $$
 \sqrt{2} \text{ is irrational.}
 $$
-<br>
+
 {: .text-center}
 ## <u>Logical Operators</u>
 
 Sometimes in math, we might want to to link statements or understand when something is NOT true. To better understand the logic behind these complexities, we can use logical operators. Logical operators are operations that act on and modify statements. We will briefly discuss logical AND, OR, and NOT.
 
-### <b>And/Or</b>
+### <b>AND/OR</b>
+
+Let's first discuss how we can link two statements. Think about the following two statements: 
+
+$$
+\text{It is raining.}
+$$
+
+$$
+\text{It is sunny.}
+$$
+
+Given these two statements, we can link them using
 
 What if we wanted to represent the opposite of a statement? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
 
