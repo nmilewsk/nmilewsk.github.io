@@ -7,7 +7,8 @@ nav_order: 1
 
 Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please be aware that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
 
-## <u>Logic</u>
+{: .text-center}
+# <u>Logic</u>
 
 Mathematics builds upon itself by making logical expressions and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
