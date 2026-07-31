@@ -12,7 +12,7 @@ Please note that most of the following can be defined in much greater detail in 
 {: .text-center}
 # <u>Logic</u>
 
-<br>
+
 
 Mathematics builds upon itself by making logical expressions and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
