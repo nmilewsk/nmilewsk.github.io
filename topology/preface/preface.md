@@ -13,7 +13,7 @@ Please note that most of the following can be defined in much greater detail in 
 # <b>Logic</b>
 
 {: .text-center}
-### <u>Mathematical Statements</u>
+## <u>Mathematical Statements</u>
 
 Mathematics builds upon itself by making logical expressions and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
@@ -36,7 +36,11 @@ $$
 <br>
 
 {: .text-center}
-### <u>Negation</u>
+## <u>Logical Operators</u>
+
+Logical operators are operations that act on and modify statements.
+
+### <b>And/Or</b>
 
 What if we wanted to represent the opposite of a statement? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
 
@@ -46,10 +50,7 @@ What if we wanted to represent the opposite of a statement? We would turn to neg
 |F    |T          |
 
 This is pretty straight forward, $\\neg P$ is true when $P$ is false and vice versa. 
-
-{: .text-center}
-### <u>Compound Statements</u>
-
+<br>
 Two or more statements can be linked to form a single joined statement known as a compound statement. The truth of a compound statement relies on the truth values of the statements involved and however they are joined. Think about the following two statements: 
 
 $$
