@@ -12,13 +12,13 @@ Please note that most of the following can be defined in much greater detail in 
 {: .text-center}
 # <u>Logic</u>
 
-
+### Mathematical Statements
 
 Mathematics builds upon itself by making logical expressions and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
 
 | In mathematics, a <u><strong>statement</strong></u> is a declaration in which a truth value can be attributed to. |
 
-In simpler terms, a statement is a claim that it is either true or false. Common examples of these would be:
+In simpler terms, a statement is a claim that it is either true or false, and the truth of the statement must be objective. Common examples of these would be:
 
 $$
 \text{The number 51 is not prime.}
@@ -34,7 +34,9 @@ $$
 
 <br><br>
 
-While all of the above are true statements, what if we had a false statement, but wanted to represent it as true? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
+### Negation
+
+What if we wanted to represent the opposite of a statement? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
 
 | $P$ | $\\neg P$ |
 |:----|:----------|
