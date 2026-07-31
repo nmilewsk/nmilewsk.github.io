@@ -32,9 +32,7 @@ $$
 $$
 \sqrt{2} \text{ is irrational.}
 $$
-
 <br>
-
 {: .text-center}
 ## <u>Logical Operators</u>
 
