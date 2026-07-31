@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 {: .text-left}
-# <u>Tutoring Services</u>
+# <b>Tutoring Services</b>
 
 <div class ="side-by-side">  
   <div class ="text-content">
@@ -23,7 +23,7 @@ nav_order: 1
 
 
 {: .text-left}
-# <u>Projects</u>
+# <b>Projects</b>
 
 {: .text-left}
 <img src="{{ site.baseurl }}/assets/images/researchPlot.png" alt="researchPlot" width="50%">
@@ -33,7 +33,7 @@ nav_order: 1
 
 
 {: .text-left}
-# <u>About Me</u>
+# <b>About Me</b>
 
 {: .text-left}
 <div class ="content-card">
