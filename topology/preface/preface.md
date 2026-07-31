@@ -7,6 +7,7 @@ nav_order: 1
 
 Please note that most of the following can be defined in much greater detail in other mathematical courses. While I will do my best to include all necessary details, please be aware that some definitions/concepts might require more intricacy than given in this section. If so, I will cover said intricacy when the need arises.
 
+
 {: .text-center}
 # <u>Logic</u>
 
