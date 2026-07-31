@@ -36,7 +36,7 @@ $$
 {: .text-center}
 ## <u>Logical Operators</u>
 
-Logical operators are operations that act on and modify statements.
+Sometimes in math, we might want to to link statements or understand when something is NOT true. To better understand the logic behind these complexities, we can use logical operators. Logical operators are operations that act on and modify statements. We will briefly discuss logical AND, OR, and NOT.
 
 ### <b>And/Or</b>
 
