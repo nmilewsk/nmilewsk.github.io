@@ -33,7 +33,7 @@ $$
 \sqrt{2} \text{ is irrational.}
 $$
 
-<br><br>
+<br>
 
 {: .text-center}
 ### <u>Negation</u>
