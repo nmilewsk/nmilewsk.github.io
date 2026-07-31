@@ -45,7 +45,12 @@ What if we wanted to represent the opposite of a statement? We would turn to neg
 |T    |F          |
 |F    |T          |
 
-This is pretty straight forward, $\\neg P$ is true when $P$ is false and vice versa. Two or more statements can be linked to form a single joined statement known as a compound statement. The truth of a compound statement relies on the truth values of the statements involved. Think about the following two statements: 
+This is pretty straight forward, $\\neg P$ is true when $P$ is false and vice versa. 
+
+{: .text-center}
+### <u>Compound Statements</u>
+
+Two or more statements can be linked to form a single joined statement known as a compound statement. The truth of a compound statement relies on the truth values of the statements involved and however they are joined. Think about the following two statements: 
 
 $$
 \text{It is raining.}
