@@ -12,6 +12,7 @@ Please note that most of the following can be defined in much greater detail in 
 {: .text-center}
 # <u>Logic</u>
 
+{: .text-center}
 ### Mathematical Statements
 
 Mathematics builds upon itself by making logical expressions and consequently proving their truth beyond any reasonable doubt. But how can we go about proving these statements/sentences? First we should fully understand the underlying logic behind such statements. 
@@ -34,6 +35,7 @@ $$
 
 <br><br>
 
+{: .text-center}
 ### Negation
 
 What if we wanted to represent the opposite of a statement? We would turn to negation. Given a statement $P$, we represent the negation of $P$ as $\\neg P$ or "not $P$." We can show the truth of $P$ and $\\neg P$ with a truth table, which is a mathematical tool to, given some initial statements, show the truth of related statements where T is true and F is false:
