@@ -59,7 +59,14 @@ When you think about measuring distance between two objects intuitively, these s
 >    {{ "[Non-negativity](#M1):" }}
 >  </summary>
 >  <div class="faq-answer">
->    <p>{{ "test" }}</p>
+> <p>{{ " $ \\forall{x,y} \\in \\mathbb{R}^2$:
+>
+> Note that the square root function is already non-negative, so we simply need to check $x=y \\iff d(x,y) = 0$.
+> 
+> If $x=y$, then $d(x,x)=\\sqrt{(x_{1}-x_{1})^2 + (x_{2}-x_{2})^2} = \\sqrt{0 + 0} = 0.$
+> 
+> If $d(x,y) = 0$, then $(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2 = 0$
+> $ \\implies x_{1}-y_{1} = 0 = x_{2}-y_{2} \\implies (x_{1},x_{2}) = (y_{1},y_{2}) \\implies x = y$ " }}</p>
 >  </div>
 > </details>
 > [Non-negativity](#M1):
@@ -71,8 +78,7 @@ When you think about measuring distance between two objects intuitively, these s
 > If $x=y$, then $d(x,x)=\\sqrt{(x_{1}-x_{1})^2 + (x_{2}-x_{2})^2} = \\sqrt{0 + 0} = 0.$
 > 
 > If $d(x,y) = 0$, then $(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2 = 0$
-> $ \\implies x_{1}-y_{1} = 0 = x_{2}-y_{2} \\implies (x_{1},x_{2}) = (y_{1},y_{2}) \\implies x = y$ </summary>
-> </details>
+> $ \\implies x_{1}-y_{1} = 0 = x_{2}-y_{2} \\implies (x_{1},x_{2}) = (y_{1},y_{2}) \\implies x = y$
 >
 > [Symmetric](#M2):
 > 
