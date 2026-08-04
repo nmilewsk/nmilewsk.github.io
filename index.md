@@ -4,14 +4,9 @@ layout: home
 has_toc: false
 nav_order: 1
 ---
-
 $$
-\begin{align}
-f(x) = (x + 1)^2 \\
-f(x) = x^2 + 2x + 1
-\end{align}
+\begin{array} {|r|r|}\hline P & \not{P} \\ \hline T & F \\ \hline  \end{array}
 $$
-
 
 {: .text-left}
 # <b>Tutoring Services</b>
@@ -38,7 +33,6 @@ $$
 
 {: .text-left}
 [My Projects](https://nmilewsk.github.io/projects.html){: .btn .btn-custom }
-
 
 {: .text-left}
 # <b>About Me</b>
