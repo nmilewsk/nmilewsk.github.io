@@ -58,8 +58,6 @@ When you think about measuring distance between two objects intuitively, these s
 > <summary class="faq-button">Non-negativity</summary>
 > <div class="faq-answer" markdown="1">
 >
-> [Non-negativity](#M1):
->
 > $\forall{x,y} \in \mathbb{R}^2$:
 >
 > Note that the square root function is already non-negative, so we simply need to check $x=y \iff d(x,y) = 0$.
