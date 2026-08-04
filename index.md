@@ -5,6 +5,14 @@ has_toc: false
 nav_order: 1
 ---
 
+$$
+\begin{align*}
+f(x) &= (x + 1)^2 \\
+     &= x^2 + 2x + 1
+\end{align*}
+$$
+
+
 {: .text-left}
 # <b>Tutoring Services</b>
 
