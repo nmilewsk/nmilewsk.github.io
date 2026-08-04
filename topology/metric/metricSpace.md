@@ -54,7 +54,8 @@ When you think about measuring distance between two objects intuitively, these s
 
 
 {: .proof }
-> [Non-negativity](#M1):
+> <details>
+> <summary>[Non-negativity](#M1):</summary>
 > 
 > $ \\forall{x,y} \\in \\mathbb{R}^2$:
 >
@@ -63,7 +64,8 @@ When you think about measuring distance between two objects intuitively, these s
 > If $x=y$, then $d(x,x)=\\sqrt{(x_{1}-x_{1})^2 + (x_{2}-x_{2})^2} = \\sqrt{0 + 0} = 0.$
 > 
 > If $d(x,y) = 0$, then $(x_{1}-y_{1})^2 + (x_{2}-y_{2})^2 = 0$
-> $ \\implies x_{1}-y_{1} = 0 = x_{2}-y_{2} \\implies (x_{1},x_{2}) = (y_{1},y_{2}) \\implies x = y$
+> $ \\implies x_{1}-y_{1} = 0 = x_{2}-y_{2} \\implies (x_{1},x_{2}) = (y_{1},y_{2}) \\implies x = y$ </summary>
+> </details>
 >
 > [Symmetric](#M2):
 > 
