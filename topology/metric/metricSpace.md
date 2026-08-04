@@ -56,7 +56,7 @@ When you think about measuring distance between two objects intuitively, these s
 {: .proof }
 > <details class="faq-container">
 >  <summary class="faq-button">
->    {{ Non-Negativity: }}
+>    {{ "Non-Negativity:" }}
 >  </summary>
 >  <div class="faq-answer">
 >    <p>{{ "test" }}</p>
