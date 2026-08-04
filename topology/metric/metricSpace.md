@@ -52,6 +52,10 @@ When you think about measuring distance between two objects intuitively, these s
 > d(x,y)=\sqrt{\sum_{i=1}^n (x_{i}-y_{i})^2}
 > $$
 
+<details>
+<summary> Test </summary>
+AHHH
+</details>
 
 {: .proof }
 > <details>
