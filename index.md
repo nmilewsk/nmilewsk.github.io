@@ -7,8 +7,8 @@ nav_order: 1
 
 $$
 \begin{align}
-f(x) &= (x + 5)^2 \\
-f(x) &= x^2 + 2x + 1
+f(x) = (x &+ 1)^2 \\
+f(x) = x^2 &+ 2x + 1
 \end{align}
 $$
 
