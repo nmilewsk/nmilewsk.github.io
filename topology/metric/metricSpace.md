@@ -12,12 +12,8 @@ Metric spaces, and their associated metrics, have been around you your whole lif
 {: .definition }
 > A <u><strong> metric space </strong></u> is an ordered pair $(X,d)$ where $X$ is a set and $d(x,y)$ is a metric on X.
 
-<span id ="test1">
-
 {: .definition }
-> testing
-
-</span>
+> <span id ="test1"><u>Test Definition</u></span>
 
 [test link](#test1)
 
