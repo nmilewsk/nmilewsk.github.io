@@ -11,11 +11,6 @@ nav_order: 1
   }
 </style>
 
-{: .text-center} 
-# <b>This is how to make a bold title</b>
-
-## <u>This is how to underline a subtitle</u>
-
 {: .text-left}
 # <b>Tutoring Services</b>
 
