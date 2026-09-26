@@ -6,8 +6,8 @@ nav_order: 1
 ---
 
 <style>
-  :root {
-    --content-width: 90%;
+  .main {
+    max-width: 100rem;
   }
 </style>
 
