@@ -5,8 +5,13 @@ has_toc: false
 nav_order: 1
 ---
 
+<style>
+  :root {
+    --content-width: 90%;
+  }
+</style>
 
-{: .text-center}
+{: .text-center} 
 # <b>This is how to make a bold title</b>
 
 ## <u>This is how to underline a subtitle</u>
