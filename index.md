@@ -4,10 +4,6 @@ layout: home
 has_toc: false
 nav_order: 1
 ---
- 
-$$
-\begin{array} {|r|r|}\hline P & {\neg{P}} \\ \hline T & F \\ \hline  \end{array}
-$$
 
 {: .text-left}
 # <b>Tutoring Services</b>
