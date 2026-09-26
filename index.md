@@ -5,7 +5,10 @@ has_toc: false
 nav_order: 1
 ---
 
-# <b>This is how to make a bold title<\b>
+
+{: .text-center}
+# <b>This is how to make a bold title</b>
+
 ## <u>This is how to underline a subtitle</u>
 
 {: .text-left}
