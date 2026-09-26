@@ -7,7 +7,7 @@ nav_order: 1
 
 <style>
   .main {
-    max-width: 100rem;
+    max-width: 90%;
   }
 </style>
 

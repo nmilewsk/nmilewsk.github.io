@@ -383,6 +383,8 @@ fieldset {
   height: 5rem;
 }
 
+/** LATEX HELPS WITH THE SIDEBAR **/
+
 @media (min-width: 50rem) {
   .side-bar {
     padding-left: 0;
@@ -515,4 +517,10 @@ blockquote {
 
 .btn-custom:hover {
   background-color: var(--color-primary-active) !important;
+}
+
+.faq-answer {
+    padding: 20px 25px;
+    color: #FFFFFF;
+    line-height: 1.6;
 }
