@@ -15,8 +15,6 @@ Metric spaces, and their associated metrics, have been around you your whole lif
 {: .definition }
 > <span id ="test1"><u>Test Definition</u></span>
 
-[test link](#test1)
-
 {: .definition }
 > A <u><strong> metric </strong></u> on a set $X$ is a function
 >
